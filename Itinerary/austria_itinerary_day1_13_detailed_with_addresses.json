@@ -3000,26 +3000,4 @@
                     "notes": "End of trip.",
                     "food_options": []
                 }
-            ]
-        }
-    ],
-    "general_notes": [
-        "Use city cards mainly for local public transport first, and attraction discounts or free entries second.",
-        "Major Vienna attractions are usually not free with the Vienna City Card.",
-        "Salzburg Card and Innsbruck Card provide stronger attraction value than Vienna City Card.",
-        "Book timed attractions in advance where possible.",
-        "Check opening hours close to travel dates, especially Cafe Central renovation status, Salzwelten Hallstatt reopening, and Dachstein seasonal operation.",
-        "Keep cafe and coffee stops between 08:00 and 16:00.",
-        "Use accommodation areas as route anchors to avoid unnecessary transport interchanges.",
-        "For mountain days, check weather, cable car operation, and last descent times.",
-        "For Hallstatt and Obertraun, check evening transport and restaurant availability in advance.",
-        "Intercity trains are separate from city cards.",
-        "Carry some cash for traditional beer halls, mountain huts, and smaller village stops.",
-        "Use live transport apps for Hallstatt, Obertraun, and Dachstein connections."
-    ],
-    "verification_notes": [
-        "Some addresses for smaller backup food options are marked as verify exact address before going because branches, openings, and names can change.",
-        "Cafe Central is a must-do target but has renovation uncertainty for autumn 2026; DECENTRAL is kept as the route-fit backup.",
-        "Demel, Cafe Central, Fenster Cafe, Austrian National Library State Hall, NENI Naschmarkt, Cafe Jelinek, and Votivkirche address/status details were cross-checked online during itinerary preparation."
-    ]
-}
+    
