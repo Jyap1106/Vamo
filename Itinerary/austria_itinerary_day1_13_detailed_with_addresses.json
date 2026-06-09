@@ -1,0 +1,3026 @@
+{
+    "dataset_metadata": {
+        "destination": "Austria",
+        "cities": [
+            "Vienna",
+            "Salzburg",
+            "Obertraun / Hallstatt",
+            "Innsbruck"
+        ],
+        "trip_dates": {
+            "start_date": "2026-10-06",
+            "end_date": "2026-10-18",
+            "display": "6 Oct - 18 Oct"
+        },
+        "duration_days": 13,
+        "dataset_type": "Detailed structured itinerary",
+        "travel_style": [
+            "culture",
+            "museums",
+            "cafes",
+            "city exploration",
+            "scenic towns",
+            "alpine nature",
+            "relaxed travel"
+        ],
+        "budget": "mixed",
+        "group_type": "general",
+        "source": "Personal itinerary with practical route details",
+        "private_data_removed": false,
+        "privacy_note": "This version includes accommodation addresses and richer location details per user request. Review before uploading to a public repository.",
+        "use_case": [
+            "Holiday Planner project",
+            "GitHub repository",
+            "future RAG usage",
+            "personal travel reference"
+        ],
+        "schema_version": "2.0"
+    },
+    "field_definitions": {
+        "start_time": "Local start time in 24-hour format",
+        "end_time": "Local end time in 24-hour format",
+        "title": "Short activity title",
+        "category": "Activity type such as Food, Transport, Museum, Sightseeing, Event, Logistics, or Accommodation",
+        "priority": "High, Medium, or Low",
+        "status": "Planned or Optional",
+        "location": "Readable place, neighborhood, station, landmark, or route segment",
+        "address": "Exact address when available; route pair for transport items; nearest useful area when exact address is not required",
+        "transport": "Main transport method",
+        "opening_booking_notes": "Ticket, pass, opening-hour, reservation, or booking reminder",
+        "weather_sensitivity": "Low, Medium, or High",
+        "catch_up_eligibility": "Whether the item can be moved to another slot if missed",
+        "can_skip": "Whether the item can be skipped without damaging the route",
+        "notes": "Concise practical travel notes",
+        "food_options": "Food stop options for meal/cafe rows, with addresses and recommended orders"
+    },
+    "itinerary": [
+        {
+            "day": 1,
+            "date": "2026-10-06",
+            "display_date": "6 Oct",
+            "weekday": "Tuesday",
+            "city": "Vienna",
+            "theme": "Vienna arrival and classic old town introduction",
+            "items": [
+                {
+                    "start_time": "15:00",
+                    "end_time": "16:15",
+                    "title": "Check in, settle, light snack",
+                    "category": "Accommodation / Food",
+                    "priority": "High",
+                    "status": "Planned",
+                    "location": "Favoriten, Vienna",
+                    "address": "37 Leibnizgasse, 1100 Vienna, Austria",
+                    "transport": "Arrival / walk",
+                    "opening_booking_notes": "Confirm check-in timing with accommodation before arrival",
+                    "weather_sensitivity": "Low",
+                    "catch_up_eligibility": false,
+                    "can_skip": false,
+                    "notes": "Arrival buffer and light snack. Coffee only before 16:00.",
+                    "food_options": [
+                        {
+                            "name": "Stroeck Hauptbahnhof",
+                            "address": "Vienna Hbf, Am Hauptbahnhof 1, 1100 Vienna, Austria",
+                            "recommended_order": "Schinken-Kaese baguette, croissant, Apfelstrudel",
+                            "route_fit": "Near arrival / station route"
+                        },
+                        {
+                            "name": "Anker Hauptbahnhof",
+                            "address": "Vienna Hbf, Am Hauptbahnhof 1, 1100 Vienna, Austria",
+                            "recommended_order": "Kornspitz, Topfengolatsche, filled roll",
+                            "route_fit": "Near arrival / station route"
+                        },
+                        {
+                            "name": "Simple supermarket or bakery snack",
+                            "address": "Near Leibnizgasse, 1100 Vienna, Austria",
+                            "recommended_order": "Sandwich, pastry, bottled water",
+                            "route_fit": "Near accommodation"
+                        }
+                    ]
+                },
+                {
+                    "start_time": "16:15",
+                    "end_time": "16:45",
+                    "title": "Travel to Stephansplatz",
+                    "category": "Transport",
+                    "priority": "High",
+                    "status": "Planned",
+                    "location": "Favoriten to Innere Stadt",
+                    "address": "From: 37 Leibnizgasse, 1100 Vienna; To: Stephansplatz, 1010 Vienna",
+                    "transport": "Walk + U1",
+                    "opening_booking_notes": "Vienna City Card or local transport card valid after activation",
+                    "weather_sensitivity": "Low",
+                    "catch_up_eligibility": false,
+                    "can_skip": false,
+                    "notes": "Direct U1 corridor into the historic centre.",
+                    "food_options": []
+                },
+                {
+                    "start_time": "16:45",
+                    "end_time": "17:30",
+                    "title": "St. Stephen's Cathedral and Stephansplatz",
+                    "category": "Sightseeing",
+                    "priority": "High",
+                    "status": "Planned",
+                    "location": "Stephansplatz",
+                    "address": "Stephansplatz 3, 1010 Vienna, Austria",
+                    "transport": "Walk",
+                    "opening_booking_notes": "Exterior is free. Towers, catacombs, and treasury are paid optional add-ons.",
+                    "weather_sensitivity": "Low",
+                    "catch_up_eligibility": true,
+                    "can_skip": false,
+                    "notes": "First iconic Vienna landmark. Good orientation point for the old centre.",
+                    "food_options": []
+                },
+                {
+                    "start_time": "17:30",
+                    "end_time": "18:00",
+                    "title": "Graben and Kohlmarkt walk",
+                    "category": "Sightseeing",
+                    "priority": "Medium",
+                    "status": "Planned",
+                    "location": "Innere Stadt",
+                    "address": "Graben and Kohlmarkt, 1010 Vienna, Austria",
+                    "transport": "Walk",
+                    "opening_booking_notes": "No booking required",
+                    "weather_sensitivity": "Medium",
+                    "catch_up_eligibility": true,
+                    "can_skip": true,
+                    "notes": "Free classic pedestrian old-centre walk with luxury shops and historic facades.",
+                    "food_options": []
+                },
+                {
+                    "start_time": "18:00",
+                    "end_time": "18:25",
+                    "title": "Ankeruhr and Hoher Markt",
+                    "category": "Sightseeing",
+                    "priority": "Medium",
+                    "status": "Planned",
+                    "location": "Hoher Markt",
+                    "address": "Hoher Markt 10-11, 1010 Vienna, Austria",
+                    "transport": "Walk",
+                    "opening_booking_notes": "No booking required",
+                    "weather_sensitivity": "Medium",
+                    "catch_up_eligibility": true,
+                    "can_skip": true,
+                    "notes": "Free exterior photo stop.",
+                    "food_options": []
+                },
+                {
+                    "start_time": "18:25",
+                    "end_time": "19:10",
+                    "title": "Peterskirche area",
+                    "category": "Sightseeing",
+                    "priority": "Medium",
+                    "status": "Planned",
+                    "location": "Petersplatz",
+                    "address": "Petersplatz 1, 1010 Vienna, Austria",
+                    "transport": "Walk",
+                    "opening_booking_notes": "Church visit is free. Concerts may require ticket or donation.",
+                    "weather_sensitivity": "Low",
+                    "catch_up_eligibility": true,
+                    "can_skip": true,
+                    "notes": "Treat any concert as a bonus, not a fixed commitment.",
+                    "food_options": []
+                },
+                {
+                    "start_time": "19:15",
+                    "end_time": "21:00",
+                    "title": "Dinner",
+                    "category": "Food",
+                    "priority": "High",
+                    "status": "Planned",
+                    "location": "Innere Stadt",
+                    "address": "Old centre, 1010 Vienna, Austria",
+                    "transport": "Walk",
+                    "opening_booking_notes": "Reserve if choosing a popular restaurant, especially Figlmueller",
+                    "weather_sensitivity": "Low",
+                    "catch_up_eligibility": false,
+                    "can_skip": false,
+                    "notes": "Classic first-night Vienna dinner.",
+                    "food_options": [
+                        {
+                            "name": "Figlmueller",
+                            "address": "Wollzeile 5, 1010 Vienna, Austria",
+                            "recommended_order": "Wiener schnitzel and potato salad",
+                            "route_fit": "Near Stephansplatz / Wollzeile"
+                        },
+                        {
+                            "name": "Lugeck",
+                            "address": "Lugeck 4, 1010 Vienna, Austria",
+                            "recommended_order": "Schnitzel, goulash, Austrian classics",
+                            "route_fit": "Old centre backup near route"
+                        },
+                        {
+                            "name": "Plachutta Wollzeile",
+                            "address": "Wollzeile 38, 1010 Vienna, Austria",
+                            "recommended_order": "Tafelspitz, goulash, Austrian beef dishes",
+                            "route_fit": "Near Stadtpark edge"
+                        }
+                    ]
+                },
+                {
+                    "start_time": "21:00",
+                    "end_time": "21:45",
+                    "title": "Return to accommodation",
+                    "category": "Transport",
+                    "priority": "High",
+                    "status": "Planned",
+                    "location": "Innere Stadt to Favoriten",
+                    "address": "From: Stephansplatz, 1010 Vienna; To: 37 Leibnizgasse, 1100 Vienna",
+                    "transport": "Walk + U1",
+                    "opening_booking_notes": "Use valid local transport ticket",
+                    "weather_sensitivity": "Low",
+                    "catch_up_eligibility": false,
+                    "can_skip": false,
+                    "notes": "Easy U1 return route.",
+                    "food_options": []
+                }
+            ]
+        },
+        {
+            "day": 2,
+            "date": "2026-10-07",
+            "display_date": "7 Oct",
+            "weekday": "Wednesday",
+            "city": "Vienna",
+            "theme": "Schonbrunn, Belvedere, Karlskirche, and classic Vienna museums",
+            "items": [
+                {
+                    "start_time": "08:30",
+                    "end_time": "09:10",
+                    "title": "Optional breakfast",
+                    "category": "Food",
+                    "priority": "Medium",
+                    "status": "Optional",
+                    "location": "Favoriten / Vienna Hbf / Schonbrunn area",
+                    "address": "Near start point or activity area",
+                    "transport": "Walk / U-Bahn",
+                    "opening_booking_notes": "Check bakery or cafe opening hours",
+                    "weather_sensitivity": "Low",
+                    "catch_up_eligibility": false,
+                    "can_skip": true,
+                    "notes": "Choose either a start-side quick breakfast or an activity-side breakfast near Schonbrunn.",
+                    "food_options": [
+                        {
+                            "name": "Stroeck Hauptbahnhof",
+                            "address": "Vienna Hbf, Am Hauptbahnhof 1, 1100 Vienna, Austria",
+                            "recommended_order": "Baguette, croissant, pastry, coffee",
+                            "route_fit": "Near Favoriten / Hbf route"
+                        },
+                        {
+                            "name": "Oefferl Hietzing",
+                            "address": "Hietzing area, 1130 Vienna, Austria - verify exact branch before going",
+                            "recommended_order": "Sourdough bread, pastry, coffee",
+                            "route_fit": "Near Schonbrunn / Hietzing side"
+                        },
+                        {
+                            "name": "Schonbrunn Palace Cafe",
+                            "address": "Schonbrunner Schlossstrasse 47, 1130 Vienna, Austria",
+                            "recommended_order": "Breakfast variation, Viennese pastry, coffee",
+                            "route_fit": "At the activity spot"
+                        }
+                    ]
+                },
+                {
+                    "start_time": "09:30",
+                    "end_time": "10:15",
+                    "title": "Travel to Schonbrunn",
+                    "category": "Transport",
+                    "priority": "High",
+                    "status": "Planned",
+                    "location": "Favoriten to Schonbrunn",
+                    "address": "From: 37 Leibnizgasse, 1100 Vienna; To: Schonbrunner Schlossstrasse 47, 1130 Vienna",
+                    "transport": "Walk + U1 + U4",
+                    "opening_booking_notes": "Vienna transport ticket required",
+                    "weather_sensitivity": "Low",
+                    "catch_up_eligibility": false,
+                    "can_skip": false,
+                    "notes": "One main interchange at Karlsplatz.",
+                    "food_options": []
+                },
+                {
+                    "start_time": "10:15",
+                    "end_time": "12:15",
+                    "title": "Schonbrunn Palace and gardens",
+                    "category": "Sightseeing",
+                    "priority": "High",
+                    "status": "Planned",
+                    "location": "Schonbrunn",
+                    "address": "Schonbrunner Schlossstrasse 47, 1130 Vienna, Austria",
+                    "transport": "Walk",
+                    "opening_booking_notes": "Palace requires paid timed ticket. Gardens are partly free. Vienna City Card discount may apply.",
+                    "weather_sensitivity": "Medium",
+                    "catch_up_eligibility": true,
+                    "can_skip": false,
+                    "notes": "Book timed palace entry. Gardens can be shortened if weather is poor.",
+                    "food_options": []
+                },
+                {
+                    "start_time": "12:15",
+                    "end_time": "13:00",
+                    "title": "Lunch near Schonbrunn",
+                    "category": "Food",
+                    "priority": "Medium",
+                    "status": "Planned",
+                    "location": "Schonbrunn / Hietzing",
+                    "address": "Near Schonbrunner Schlossstrasse 47, 1130 Vienna, Austria",
+                    "transport": "Walk",
+                    "opening_booking_notes": "No booking required unless choosing a sit-down restaurant",
+                    "weather_sensitivity": "Low",
+                    "catch_up_eligibility": true,
+                    "can_skip": true,
+                    "notes": "Keep convenient; do not backtrack to Naschmarkt on this day.",
+                    "food_options": [
+                        {
+                            "name": "Landtmann's Jausen Station",
+                            "address": "Schonbrunn Palace Park, 1130 Vienna, Austria",
+                            "recommended_order": "Soup, light schnitzel plate, cake",
+                            "route_fit": "Inside / near Schonbrunn gardens"
+                        },
+                        {
+                            "name": "Brandauers Schlossbraeu",
+                            "address": "Am Platz 5, 1130 Vienna, Austria",
+                            "recommended_order": "Austrian plate, schnitzel, soup",
+                            "route_fit": "Near Hietzing side"
+                        },
+                        {
+                            "name": "Cafe Gloriette",
+                            "address": "Gloriette, Schonbrunn Palace Park, 1130 Vienna, Austria",
+                            "recommended_order": "Pastry, coffee, light lunch",
+                            "route_fit": "Inside Schonbrunn park"
+                        }
+                    ]
+                },
+                {
+                    "start_time": "13:00",
+                    "end_time": "13:45",
+                    "title": "Travel to Belvedere",
+                    "category": "Transport",
+                    "priority": "High",
+                    "status": "Planned",
+                    "location": "Schonbrunn to Belvedere",
+                    "address": "From: Schonbrunn; To: Prinz Eugen-Strasse 27, 1030 Vienna",
+                    "transport": "U4 + tram / walk",
+                    "opening_booking_notes": "Vienna transport ticket required",
+                    "weather_sensitivity": "Low",
+                    "catch_up_eligibility": false,
+                    "can_skip": false,
+                    "notes": "Route via Karlsplatz.",
+                    "food_options": []
+                },
+                {
+                    "start_time": "13:45",
+                    "end_time": "15:15",
+                    "title": "Upper Belvedere",
+                    "category": "Museum / Sightseeing",
+                    "priority": "High",
+                    "status": "Planned",
+                    "location": "Belvedere",
+                    "address": "Prinz Eugen-Strasse 27, 1030 Vienna, Austria",
+                    "transport": "Walk",
+                    "opening_booking_notes": "Museum is paid. Gardens are free. Vienna City Card discount may apply.",
+                    "weather_sensitivity": "Low",
+                    "catch_up_eligibility": true,
+                    "can_skip": false,
+                    "notes": "Prioritise Klimt and The Kiss.",
+                    "food_options": []
+                },
+                {
+                    "start_time": "15:20",
+                    "end_time": "15:55",
+                    "title": "Tea time",
+                    "category": "Food",
+                    "priority": "Medium",
+                    "status": "Planned",
+                    "location": "Wieden / Belvedere edge",
+                    "address": "Near Argentinierstrasse / Karlsplatz / Belvedere route",
+                    "transport": "Walk / short tram",
+                    "opening_booking_notes": "Cafe stop must finish before 16:00",
+                    "weather_sensitivity": "Low",
+                    "catch_up_eligibility": true,
+                    "can_skip": true,
+                    "notes": "Last cafe stop of the day.",
+                    "food_options": [
+                        {
+                            "name": "Cafe Goldegg",
+                            "address": "Argentinierstrasse 49, 1040 Vienna, Austria",
+                            "recommended_order": "Wiener Melange, Gugelhupf, Apfelstrudel",
+                            "route_fit": "Near Belvedere / Wieden"
+                        },
+                        {
+                            "name": "Ahrnst Bakery",
+                            "address": "Wieden / Neubau area - verify exact branch before going",
+                            "recommended_order": "Pastry, sourdough, light sweet snack",
+                            "route_fit": "Backup if route changes"
+                        },
+                        {
+                            "name": "Cafe Museum",
+                            "address": "Operngasse 7, 1010 Vienna, Austria",
+                            "recommended_order": "Melange, cake, strudel",
+                            "route_fit": "Near Karlsplatz / Opera side"
+                        }
+                    ]
+                },
+                {
+                    "start_time": "16:00",
+                    "end_time": "17:00",
+                    "title": "Wien Museum quick visit",
+                    "category": "Museum",
+                    "priority": "Medium",
+                    "status": "Planned",
+                    "location": "Karlsplatz",
+                    "address": "Karlsplatz 8, 1040 Vienna, Austria",
+                    "transport": "Walk / tram",
+                    "opening_booking_notes": "Permanent exhibition is free. Special exhibitions may be paid.",
+                    "weather_sensitivity": "Low",
+                    "catch_up_eligibility": true,
+                    "can_skip": true,
+                    "notes": "Efficient stop beside Karlskirche.",
+                    "food_options": []
+                },
+                {
+                    "start_time": "17:00",
+                    "end_time": "17:45",
+                    "title": "Karlskirche visit or exterior",
+                    "category": "Sightseeing",
+                    "priority": "Medium",
+                    "status": "Planned",
+                    "location": "Karlsplatz",
+                    "address": "Kreuzherrengasse 1, 1040 Vienna, Austria",
+                    "transport": "Walk",
+                    "opening_booking_notes": "Exterior is free. Visitor entry or terrace is paid.",
+                    "weather_sensitivity": "Low",
+                    "catch_up_eligibility": true,
+                    "can_skip": true,
+                    "notes": "Save time for Mass if attending.",
+                    "food_options": []
+                },
+                {
+                    "start_time": "18:00",
+                    "end_time": "18:45",
+                    "title": "Attend Mass at Karlskirche",
+                    "category": "Cultural / Religious",
+                    "priority": "Medium",
+                    "status": "Planned",
+                    "location": "Karlskirche",
+                    "address": "Kreuzherrengasse 1, 1040 Vienna, Austria",
+                    "transport": "Walk",
+                    "opening_booking_notes": "Check service timing before visiting",
+                    "weather_sensitivity": "Low",
+                    "catch_up_eligibility": false,
+                    "can_skip": true,
+                    "notes": "Service is free; donation optional.",
+                    "food_options": []
+                },
+                {
+                    "start_time": "19:00",
+                    "end_time": "20:30",
+                    "title": "Dinner",
+                    "category": "Food",
+                    "priority": "High",
+                    "status": "Planned",
+                    "location": "Wieden / Karlsplatz",
+                    "address": "Near Wieden / Karlsplatz, Vienna",
+                    "transport": "Walk / U-Bahn",
+                    "opening_booking_notes": "Reserve if choosing a popular restaurant",
+                    "weather_sensitivity": "Low",
+                    "catch_up_eligibility": false,
+                    "can_skip": false,
+                    "notes": "Classic Viennese dinner near the route.",
+                    "food_options": [
+                        {
+                            "name": "Salm Braeu",
+                            "address": "Rennweg 8, 1030 Vienna, Austria",
+                            "recommended_order": "Schnitzel, beer, goulash",
+                            "route_fit": "Near Belvedere / Rennweg"
+                        },
+                        {
+                            "name": "Gasthaus Buchecker & Sohn",
+                            "address": "Wieden area, Vienna - verify exact address before going",
+                            "recommended_order": "Schnitzel, goulash, Tafelspitz",
+                            "route_fit": "Wieden backup"
+                        },
+                        {
+                            "name": "Wiener Wiaz Haus",
+                            "address": "Wieden / Margareten area, Vienna - verify exact address before going",
+                            "recommended_order": "Classic Austrian dinner",
+                            "route_fit": "Backup if staying near Karlsplatz / Wieden"
+                        }
+                    ]
+                },
+                {
+                    "start_time": "20:30",
+                    "end_time": "21:15",
+                    "title": "Return to accommodation",
+                    "category": "Transport",
+                    "priority": "High",
+                    "status": "Planned",
+                    "location": "Wieden to Favoriten",
+                    "address": "From: Karlsplatz / Wieden; To: 37 Leibnizgasse, 1100 Vienna",
+                    "transport": "U-Bahn / tram",
+                    "opening_booking_notes": "Use valid local transport ticket",
+                    "weather_sensitivity": "Low",
+                    "catch_up_eligibility": false,
+                    "can_skip": false,
+                    "notes": "Use Karlsplatz / U1 if practical.",
+                    "food_options": []
+                }
+            ]
+        },
+        {
+            "day": 3,
+            "date": "2026-10-08",
+            "display_date": "8 Oct",
+            "weekday": "Thursday",
+            "city": "Vienna",
+            "theme": "Classic Vienna cafes, Austrian National Library, old centre, Hundertwasser, and Prater",
+            "items": [
+                {
+                    "start_time": "08:30",
+                    "end_time": "09:05",
+                    "title": "Optional light breakfast",
+                    "category": "Food",
+                    "priority": "Medium",
+                    "status": "Optional",
+                    "location": "Favoriten / Vienna Hbf / Stephansplatz",
+                    "address": "Near start route",
+                    "transport": "Walk / U1",
+                    "opening_booking_notes": "Check bakery opening hours",
+                    "weather_sensitivity": "Low",
+                    "catch_up_eligibility": false,
+                    "can_skip": true,
+                    "notes": "Keep light because Demel, Cafe Central, and Fenster Cafe are fixed must-do stops.",
+                    "food_options": [
+                        {
+                            "name": "Stroeck Hauptbahnhof",
+                            "address": "Vienna Hbf, Am Hauptbahnhof 1, 1100 Vienna, Austria",
+                            "recommended_order": "Schinken-Kaese baguette, croissant, Apfelstrudel",
+                            "route_fit": "Near U1 / Hbf route"
+                        },
+                        {
+                            "name": "Anker Hauptbahnhof",
+                            "address": "Vienna Hbf, Am Hauptbahnhof 1, 1100 Vienna, Austria",
+                            "recommended_order": "Kornspitz, Topfengolatsche, filled roll",
+                            "route_fit": "Near U1 / Hbf route"
+                        },
+                        {
+                            "name": "AIDA Stephansplatz",
+                            "address": "Stephansplatz, 1010 Vienna, Austria - verify exact shop address",
+                            "recommended_order": "Kipferl, pastry, melange",
+                            "route_fit": "Near cathedral if you skip start-side breakfast"
+                        }
+                    ]
+                },
+                {
+                    "start_time": "09:10",
+                    "end_time": "09:45",
+                    "title": "Travel to Stephansplatz",
+                    "category": "Transport",
+                    "priority": "High",
+                    "status": "Planned",
+                    "location": "Favoriten to Stephansplatz",
+                    "address": "From: 37 Leibnizgasse, 1100 Vienna; To: Stephansplatz, 1010 Vienna",
+                    "transport": "Walk + U1",
+                    "opening_booking_notes": "Vienna City Card or transport card",
+                    "weather_sensitivity": "Low",
+                    "catch_up_eligibility": false,
+                    "can_skip": false,
+                    "notes": "Direct U1 route.",
+                    "food_options": []
+                },
+                {
+                    "start_time": "09:45",
+                    "end_time": "10:20",
+                    "title": "St. Stephen's Cathedral catch-up",
+                    "category": "Sightseeing",
+                    "priority": "High",
+                    "status": "Planned",
+                    "location": "Stephansplatz",
+                    "address": "Stephansplatz 3, 1010 Vienna, Austria",
+                    "transport": "Walk",
+                    "opening_booking_notes": "Exterior is free. Tower, catacombs, and treasury are paid.",
+                    "weather_sensitivity": "Low",
+                    "catch_up_eligibility": true,
+                    "can_skip": false,
+                    "notes": "Use for interior or tower if missed on Day 1.",
+                    "food_options": []
+                },
+                {
+                    "start_time": "10:25",
+                    "end_time": "10:55",
+                    "title": "Demel tea time",
+                    "category": "Food / Cafe",
+                    "priority": "High",
+                    "status": "Planned",
+                    "location": "Kohlmarkt",
+                    "address": "Kohlmarkt 14, 1010 Vienna, Austria",
+                    "transport": "Walk",
+                    "opening_booking_notes": "Check queue and opening hours. Demel currently says it does not take reservations.",
+                    "weather_sensitivity": "Low",
+                    "catch_up_eligibility": true,
+                    "can_skip": false,
+                    "notes": "Must-do. Takeaway if queue is long.",
+                    "food_options": [
+                        {
+                            "name": "Demel",
+                            "address": "Kohlmarkt 14, 1010 Vienna, Austria",
+                            "recommended_order": "Sachertorte, Annatorte, pastry, melange",
+                            "route_fit": "Directly on the walking route from Stephansplatz / Graben to Hofburg"
+                        }
+                    ]
+                },
+                {
+                    "start_time": "10:55",
+                    "end_time": "11:10",
+                    "title": "Walk to State Hall",
+                    "category": "Transport / Walk",
+                    "priority": "Medium",
+                    "status": "Planned",
+                    "location": "Kohlmarkt to Josefsplatz",
+                    "address": "From: Kohlmarkt 14; To: Josefsplatz 1, 1010 Vienna",
+                    "transport": "Walk",
+                    "opening_booking_notes": "No booking required",
+                    "weather_sensitivity": "Medium",
+                    "catch_up_eligibility": false,
+                    "can_skip": false,
+                    "notes": "Scenic walk through the Hofburg edge.",
+                    "food_options": []
+                },
+                {
+                    "start_time": "11:10",
+                    "end_time": "12:10",
+                    "title": "Austrian National Library State Hall",
+                    "category": "Museum / Sightseeing",
+                    "priority": "High",
+                    "status": "Planned",
+                    "location": "Josefsplatz",
+                    "address": "Josefsplatz 1, 1010 Vienna, Austria",
+                    "transport": "Walk",
+                    "opening_booking_notes": "Paid entry. Check hours and event closures. Vienna City Card discount may apply.",
+                    "weather_sensitivity": "Low",
+                    "catch_up_eligibility": true,
+                    "can_skip": false,
+                    "notes": "Priority museum stop. Thursday is good because evening opening is usually longer.",
+                    "food_options": []
+                },
+                {
+                    "start_time": "12:10",
+                    "end_time": "12:30",
+                    "title": "Walk to Freyung / Ferstel",
+                    "category": "Walk",
+                    "priority": "Medium",
+                    "status": "Planned",
+                    "location": "Josefsplatz to Herrengasse",
+                    "address": "From: Josefsplatz 1; To: Herrengasse / Freyung, 1010 Vienna",
+                    "transport": "Walk",
+                    "opening_booking_notes": "No booking required",
+                    "weather_sensitivity": "Medium",
+                    "catch_up_eligibility": false,
+                    "can_skip": false,
+                    "notes": "Short old-centre walk.",
+                    "food_options": []
+                },
+                {
+                    "start_time": "12:30",
+                    "end_time": "13:45",
+                    "title": "Cafe Central lunch / tea time",
+                    "category": "Food / Cafe",
+                    "priority": "High",
+                    "status": "Planned",
+                    "location": "Herrengasse / Freyung",
+                    "address": "Cafe Central: Herrengasse 14 / Strauchgasse corner, 1010 Vienna; DECENTRAL backup: Palais Harrach, Freyung 3, 1010 Vienna",
+                    "transport": "Walk",
+                    "opening_booking_notes": "Must verify Cafe Central reopening after renovation. Use DECENTRAL if still closed.",
+                    "weather_sensitivity": "Low",
+                    "catch_up_eligibility": true,
+                    "can_skip": false,
+                    "notes": "Must-do slot. This can combine lunch and tea time.",
+                    "food_options": [
+                        {
+                            "name": "Cafe Central",
+                            "address": "Herrengasse 14 / Strauchgasse corner, 1010 Vienna, Austria",
+                            "recommended_order": "Melange, Kaiserschmarrn, apple strudel, light lunch",
+                            "route_fit": "Inside Palais Ferstel area; ideal after State Hall",
+                            "notes": "Verify reopening for Oct 2026"
+                        },
+                        {
+                            "name": "DECENTRAL",
+                            "address": "Palais Harrach, Freyung 3, 1010 Vienna, Austria",
+                            "recommended_order": "Cafe Central-style coffeehouse backup, cake, light lunch",
+                            "route_fit": "Official backup during Cafe Central renovation"
+                        },
+                        {
+                            "name": "Demel",
+                            "address": "Kohlmarkt 14, 1010 Vienna, Austria",
+                            "recommended_order": "Sachertorte, Annatorte, pastry",
+                            "route_fit": "Use only if skipped earlier"
+                        }
+                    ]
+                },
+                {
+                    "start_time": "13:45",
+                    "end_time": "14:40",
+                    "title": "Ferstel Passage, Palais Kinsky, Peterskirche area",
+                    "category": "Sightseeing",
+                    "priority": "Medium",
+                    "status": "Planned",
+                    "location": "Freyung / Herrengasse / Petersplatz",
+                    "address": "Ferstel Passage: Herrengasse 14; Palais Kinsky: Freyung 4; Peterskirche: Petersplatz 1, 1010 Vienna",
+                    "transport": "Walk",
+                    "opening_booking_notes": "No booking required unless attending a concert",
+                    "weather_sensitivity": "Medium",
+                    "catch_up_eligibility": true,
+                    "can_skip": true,
+                    "notes": "Free architecture walk.",
+                    "food_options": []
+                },
+                {
+                    "start_time": "14:40",
+                    "end_time": "15:05",
+                    "title": "Walk toward Fenster Cafe",
+                    "category": "Walk",
+                    "priority": "Medium",
+                    "status": "Planned",
+                    "location": "Petersplatz to Griechengasse",
+                    "address": "From: Petersplatz 1; To: Griechengasse 10, 1010 Vienna",
+                    "transport": "Walk",
+                    "opening_booking_notes": "No booking required",
+                    "weather_sensitivity": "Medium",
+                    "catch_up_eligibility": false,
+                    "can_skip": false,
+                    "notes": "Add Hoher Markt / Ankeruhr if missed.",
+                    "food_options": []
+                },
+                {
+                    "start_time": "15:05",
+                    "end_time": "15:40",
+                    "title": "Fenster Cafe",
+                    "category": "Food / Cafe",
+                    "priority": "High",
+                    "status": "Planned",
+                    "location": "Griechengasse / Schwedenplatz side",
+                    "address": "Griechengasse 10, 1010 Vienna, Austria",
+                    "transport": "Walk",
+                    "opening_booking_notes": "Check opening hours. Finish before 16:00.",
+                    "weather_sensitivity": "Low",
+                    "catch_up_eligibility": true,
+                    "can_skip": false,
+                    "notes": "Must-do quick coffee-to-go style stop.",
+                    "food_options": [
+                        {
+                            "name": "Fenster Cafe",
+                            "address": "Griechengasse 10, 1010 Vienna, Austria",
+                            "recommended_order": "Fensterccino, cone coffee, espresso, cappuccino",
+                            "route_fit": "Perfect eastward route before Hundertwasser"
+                        }
+                    ]
+                },
+                {
+                    "start_time": "15:40",
+                    "end_time": "16:20",
+                    "title": "Move to Hundertwasser area",
+                    "category": "Transport",
+                    "priority": "Medium",
+                    "status": "Planned",
+                    "location": "Inner city to Landstrasse",
+                    "address": "From: Griechengasse 10; To: Kegelgasse 36-38, 1030 Vienna",
+                    "transport": "Tram / U-Bahn + walk",
+                    "opening_booking_notes": "Use valid local transport ticket",
+                    "weather_sensitivity": "Low",
+                    "catch_up_eligibility": false,
+                    "can_skip": false,
+                    "notes": "Continue eastward.",
+                    "food_options": []
+                },
+                {
+                    "start_time": "16:20",
+                    "end_time": "17:15",
+                    "title": "Hundertwasserhaus and Hundertwasser Village",
+                    "category": "Sightseeing",
+                    "priority": "Medium",
+                    "status": "Planned",
+                    "location": "Landstrasse",
+                    "address": "Hundertwasserhaus: Kegelgasse 36-38, 1030 Vienna; Hundertwasser Village: Kegelgasse 37-39, 1030 Vienna",
+                    "transport": "Walk",
+                    "opening_booking_notes": "Exterior is free. Kunst Haus Wien is paid optional.",
+                    "weather_sensitivity": "Medium",
+                    "catch_up_eligibility": true,
+                    "can_skip": true,
+                    "notes": "Free photo stop. Kunst Haus Wien museum address: Untere Weissgerberstrasse 13, 1030 Vienna.",
+                    "food_options": []
+                },
+                {
+                    "start_time": "17:15",
+                    "end_time": "19:15",
+                    "title": "Prater",
+                    "category": "Sightseeing / Leisure",
+                    "priority": "Medium",
+                    "status": "Planned",
+                    "location": "Leopoldstadt",
+                    "address": "Prater / Wurstelprater, 1020 Vienna; Giant Ferris Wheel: Riesenradplatz 1, 1020 Vienna",
+                    "transport": "Tram / walk / U-Bahn",
+                    "opening_booking_notes": "Park is free. Rides are paid individually.",
+                    "weather_sensitivity": "High",
+                    "catch_up_eligibility": true,
+                    "can_skip": true,
+                    "notes": "Do not assume rides are covered by pass.",
+                    "food_options": []
+                },
+                {
+                    "start_time": "20:00",
+                    "end_time": "22:00",
+                    "title": "Dinner",
+                    "category": "Food",
+                    "priority": "High",
+                    "status": "Planned",
+                    "location": "Praterstrasse / Leopoldstadt",
+                    "address": "Near Praterstrasse / Leopoldstadt, 1020 Vienna",
+                    "transport": "U-Bahn / walk / taxi",
+                    "opening_booking_notes": "Reserve Das Loft and request a window seat if choosing it",
+                    "weather_sensitivity": "Low",
+                    "catch_up_eligibility": false,
+                    "can_skip": false,
+                    "notes": "Fixed dinner direction near Prater / SO Vienna.",
+                    "food_options": [
+                        {
+                            "name": "Das Loft",
+                            "address": "Praterstrasse 1, 1020 Vienna, Austria",
+                            "recommended_order": "Tasting menu or a la carte; request window seat",
+                            "route_fit": "Best fixed dinner option after Prater"
+                        },
+                        {
+                            "name": "Mochi",
+                            "address": "Praterstrasse 15, 1020 Vienna, Austria",
+                            "recommended_order": "Sushi, Japanese small plates, sharing dishes",
+                            "route_fit": "Near Praterstrasse backup"
+                        },
+                        {
+                            "name": "Skopik & Lohn",
+                            "address": "Leopoldsgasse 17, 1020 Vienna, Austria",
+                            "recommended_order": "Modern Austrian / European dinner",
+                            "route_fit": "Leopoldstadt backup"
+                        }
+                    ]
+                },
+                {
+                    "start_time": "22:00",
+                    "end_time": "22:45",
+                    "title": "Return to accommodation",
+                    "category": "Transport",
+                    "priority": "High",
+                    "status": "Planned",
+                    "location": "Schwedenplatz / Praterstrasse to Favoriten",
+                    "address": "From: Praterstrasse / Schwedenplatz; To: 37 Leibnizgasse, 1100 Vienna",
+                    "transport": "Walk + U1",
+                    "opening_booking_notes": "Use valid local transport ticket",
+                    "weather_sensitivity": "Low",
+                    "catch_up_eligibility": false,
+                    "can_skip": false,
+                    "notes": "Easy U1 return.",
+                    "food_options": []
+                }
+            ]
+        },
+        {
+            "day": 4,
+            "date": "2026-10-09",
+            "display_date": "9 Oct",
+            "weekday": "Friday",
+            "city": "Vienna / Salzburg",
+            "theme": "Vienna to Salzburg and first Salzburg highlights",
+            "items": [
+                {
+                    "start_time": "08:15",
+                    "end_time": "09:00",
+                    "title": "Optional breakfast before train",
+                    "category": "Food",
+                    "priority": "Medium",
+                    "status": "Optional",
+                    "location": "Vienna Hbf / Favoriten",
+                    "address": "Vienna Hbf, Am Hauptbahnhof 1, 1100 Vienna, Austria",
+                    "transport": "Walk / U-Bahn",
+                    "opening_booking_notes": "Check bakery hours",
+                    "weather_sensitivity": "Low",
+                    "catch_up_eligibility": false,
+                    "can_skip": true,
+                    "notes": "Best practical train-day breakfast.",
+                    "food_options": [
+                        {
+                            "name": "Stroeck Hauptbahnhof",
+                            "address": "Vienna Hbf, Am Hauptbahnhof 1, 1100 Vienna, Austria",
+                            "recommended_order": "Schinken-Kaese baguette, croissant, Apfelstrudel, coffee",
+                            "route_fit": "Near Vienna Hbf / U1 route"
+                        },
+                        {
+                            "name": "Anker Hauptbahnhof",
+                            "address": "Vienna Hbf, Am Hauptbahnhof 1, 1100 Vienna, Austria",
+                            "recommended_order": "Kornspitz, Topfengolatsche, filled roll, coffee",
+                            "route_fit": "Near Vienna Hbf / U1 route"
+                        },
+                        {
+                            "name": "Leberkas-Pepi Wien Hauptbahnhof",
+                            "address": "Vienna Hbf, Am Hauptbahnhof 1, 1100 Vienna, Austria",
+                            "recommended_order": "Original Leberkaese-Semmel or Kaeseleberkaese-Semmel",
+                            "route_fit": "Best for a quick savory train-day snack"
+                        }
+                    ]
+                },
+                {
+                    "start_time": "09:15",
+                    "end_time": "10:00",
+                    "title": "Checkout and move to Vienna Hbf",
+                    "category": "Transport",
+                    "priority": "High",
+                    "status": "Planned",
+                    "location": "Favoriten to Vienna Hbf",
+                    "address": "From: 37 Leibnizgasse, 1100 Vienna; To: Vienna Hbf, Am Hauptbahnhof 1, 1100 Vienna",
+                    "transport": "Walk + public transport",
+                    "opening_booking_notes": "Check checkout timing",
+                    "weather_sensitivity": "Low",
+                    "catch_up_eligibility": false,
+                    "can_skip": false,
+                    "notes": "Good Hbf access from Favoriten.",
+                    "food_options": []
+                },
+                {
+                    "start_time": "10:00",
+                    "end_time": "12:30",
+                    "title": "Train Vienna to Salzburg",
+                    "category": "Transport / Rail",
+                    "priority": "High",
+                    "status": "Planned",
+                    "location": "Vienna Hbf to Salzburg Hbf",
+                    "address": "From: Vienna Hbf, Am Hauptbahnhof 1, 1100 Vienna; To: Salzburg Hbf, Suedtiroler Platz 1, 5020 Salzburg",
+                    "transport": "Intercity train",
+                    "opening_booking_notes": "Separate rail ticket required. City cards do not cover intercity trains.",
+                    "weather_sensitivity": "Low",
+                    "catch_up_eligibility": false,
+                    "can_skip": false,
+                    "notes": "Book or check rail connection in advance.",
+                    "food_options": []
+                },
+                {
+                    "start_time": "12:30",
+                    "end_time": "13:15",
+                    "title": "Arrive and drop bags",
+                    "category": "Accommodation / Logistics",
+                    "priority": "High",
+                    "status": "Planned",
+                    "location": "Salzburg Hbf / hotel area",
+                    "address": "Arte Hotel Salzburg, Rainerstrasse 28, 5020 Salzburg, Austria",
+                    "transport": "Walk",
+                    "opening_booking_notes": "Check hotel bag drop policy. Activate Salzburg Card only when useful.",
+                    "weather_sensitivity": "Low",
+                    "catch_up_eligibility": false,
+                    "can_skip": false,
+                    "notes": "Hotel is convenient for Hbf and Mirabell route.",
+                    "food_options": []
+                },
+                {
+                    "start_time": "13:15",
+                    "end_time": "14:20",
+                    "title": "Mirabell Gardens",
+                    "category": "Sightseeing",
+                    "priority": "High",
+                    "status": "Planned",
+                    "location": "Mirabell",
+                    "address": "Mirabellplatz 4, 5020 Salzburg, Austria",
+                    "transport": "Walk",
+                    "opening_booking_notes": "Free public garden",
+                    "weather_sensitivity": "High",
+                    "catch_up_eligibility": true,
+                    "can_skip": false,
+                    "notes": "Iconic Salzburg photo stop.",
+                    "food_options": []
+                },
+                {
+                    "start_time": "14:20",
+                    "end_time": "15:00",
+                    "title": "Old Town and Getreidegasse",
+                    "category": "Sightseeing",
+                    "priority": "Medium",
+                    "status": "Planned",
+                    "location": "Salzburg Old Town",
+                    "address": "Getreidegasse, 5020 Salzburg, Austria",
+                    "transport": "Walk",
+                    "opening_booking_notes": "No booking required",
+                    "weather_sensitivity": "Medium",
+                    "catch_up_eligibility": true,
+                    "can_skip": true,
+                    "notes": "Classic Salzburg orientation walk.",
+                    "food_options": []
+                },
+                {
+                    "start_time": "15:00",
+                    "end_time": "15:50",
+                    "title": "Tea time / bakery stop",
+                    "category": "Food",
+                    "priority": "Medium",
+                    "status": "Planned",
+                    "location": "Salzburg Old Town",
+                    "address": "Old Town, 5020 Salzburg, Austria",
+                    "transport": "Walk",
+                    "opening_booking_notes": "Cafe stop before 16:00",
+                    "weather_sensitivity": "Low",
+                    "catch_up_eligibility": true,
+                    "can_skip": true,
+                    "notes": "Keep this as a short Salzburg sweets/bakery stop.",
+                    "food_options": [
+                        {
+                            "name": "Cafe Konditorei Fuerst",
+                            "address": "Brodgasse 13, 5020 Salzburg, Austria",
+                            "recommended_order": "Original Salzburger Mozartkugel, melange",
+                            "route_fit": "Near Old Town route"
+                        },
+                        {
+                            "name": "Stiftsbaeckerei St Peter",
+                            "address": "Kapitelplatz 8, 5020 Salzburg, Austria",
+                            "recommended_order": "Sourdough brown bread, pastry",
+                            "route_fit": "Near St. Peter / Old Town"
+                        },
+                        {
+                            "name": "Cafe Tomaselli",
+                            "address": "Alter Markt 9, 5020 Salzburg, Austria",
+                            "recommended_order": "Cake, coffee, classic cafe pastry",
+                            "route_fit": "Historic Old Town cafe backup"
+                        }
+                    ]
+                },
+                {
+                    "start_time": "15:50",
+                    "end_time": "17:15",
+                    "title": "Hohensalzburg Fortress",
+                    "category": "Sightseeing",
+                    "priority": "High",
+                    "status": "Planned",
+                    "location": "Festungsberg",
+                    "address": "Moenchsberg 34, 5020 Salzburg, Austria",
+                    "transport": "Walk + funicular",
+                    "opening_booking_notes": "Salzburg Card strong value. Check closing time.",
+                    "weather_sensitivity": "Medium",
+                    "catch_up_eligibility": true,
+                    "can_skip": false,
+                    "notes": "Free through Salzburg Card where valid; funicular usually included when card is active.",
+                    "food_options": []
+                },
+                {
+                    "start_time": "18:30",
+                    "end_time": "20:30",
+                    "title": "Dinner",
+                    "category": "Food",
+                    "priority": "High",
+                    "status": "Planned",
+                    "location": "Old Town",
+                    "address": "Salzburg Old Town, 5020 Salzburg, Austria",
+                    "transport": "Walk / bus",
+                    "opening_booking_notes": "Reserve if desired",
+                    "weather_sensitivity": "Low",
+                    "catch_up_eligibility": false,
+                    "can_skip": false,
+                    "notes": "Proper Salzburg sit-down dinner.",
+                    "food_options": [
+                        {
+                            "name": "Zwettler's Wirtshaus",
+                            "address": "Kaigasse 3, 5020 Salzburg, Austria",
+                            "recommended_order": "Beer goulash, Wiener schnitzel, Kasnockn, Salzburger Nockerl",
+                            "route_fit": "Old Town route-fit dinner"
+                        },
+                        {
+                            "name": "St. Peter Stiftskulinarium",
+                            "address": "St.-Peter-Bezirk 1/4, 5020 Salzburg, Austria",
+                            "recommended_order": "Austrian classics, refined dinner",
+                            "route_fit": "Near St. Peter"
+                        },
+                        {
+                            "name": "Baerenwirt",
+                            "address": "Muellner Hauptstrasse 8, 5020 Salzburg, Austria",
+                            "recommended_order": "Austrian tavern dishes, schnitzel, beer",
+                            "route_fit": "Across Salzach / near Muelln"
+                        }
+                    ]
+                },
+                {
+                    "start_time": "20:30",
+                    "end_time": "21:15",
+                    "title": "Return to hotel",
+                    "category": "Transport",
+                    "priority": "High",
+                    "status": "Planned",
+                    "location": "Old Town to Hbf area",
+                    "address": "From: Salzburg Old Town; To: Arte Hotel Salzburg, Rainerstrasse 28, 5020 Salzburg",
+                    "transport": "Walk / bus",
+                    "opening_booking_notes": "Salzburg Card covers local transport if active",
+                    "weather_sensitivity": "Low",
+                    "catch_up_eligibility": false,
+                    "can_skip": false,
+                    "notes": "Use bus if tired.",
+                    "food_options": []
+                }
+            ]
+        },
+        {
+            "day": 5,
+            "date": "2026-10-10",
+            "display_date": "10 Oct",
+            "weekday": "Saturday",
+            "city": "Salzburg",
+            "theme": "Salzburg Card day, Stiegl, Mozart, and Augustiner Braeu lunch",
+            "items": [
+                {
+                    "start_time": "09:00",
+                    "end_time": "09:40",
+                    "title": "Breakfast",
+                    "category": "Food",
+                    "priority": "Medium",
+                    "status": "Planned",
+                    "location": "Salzburg Hbf / Mirabell side",
+                    "address": "Near Rainerstrasse / Salzburg Hbf / Mirabell",
+                    "transport": "Walk",
+                    "opening_booking_notes": "Check cafe hours or hotel breakfast timing",
+                    "weather_sensitivity": "Low",
+                    "catch_up_eligibility": false,
+                    "can_skip": true,
+                    "notes": "Start-side breakfast before Stiegl day.",
+                    "food_options": [
+                        {
+                            "name": "Arte Hotel breakfast",
+                            "address": "Arte Hotel Salzburg, Rainerstrasse 28, 5020 Salzburg, Austria",
+                            "recommended_order": "Hotel buffet / convenient breakfast",
+                            "route_fit": "At accommodation"
+                        },
+                        {
+                            "name": "Anker Snack & Coffee Salzburg Hbf",
+                            "address": "Salzburg Hbf, Suedtiroler Platz 1, 5020 Salzburg, Austria",
+                            "recommended_order": "Sandwich, croissant, pastry, coffee",
+                            "route_fit": "Near hotel / station"
+                        },
+                        {
+                            "name": "Cafe Fingerlos",
+                            "address": "Franz-Josef-Strasse 9, 5020 Salzburg, Austria",
+                            "recommended_order": "Breakfast sandwich, croissant, pastry, coffee",
+                            "route_fit": "Mirabell / Andraeviertel side"
+                        }
+                    ]
+                },
+                {
+                    "start_time": "09:40",
+                    "end_time": "10:20",
+                    "title": "Travel to Stiegl-Brauwelt",
+                    "category": "Transport",
+                    "priority": "Medium",
+                    "status": "Planned",
+                    "location": "Salzburg centre to Braeuhausstrasse",
+                    "address": "From: Salzburg Hbf / Mirabell; To: Braeuhausstrasse 9, 5020 Salzburg",
+                    "transport": "Bus / local transport",
+                    "opening_booking_notes": "Salzburg Card transport if active",
+                    "weather_sensitivity": "Low",
+                    "catch_up_eligibility": false,
+                    "can_skip": false,
+                    "notes": "Use pass transport.",
+                    "food_options": []
+                },
+                {
+                    "start_time": "10:30",
+                    "end_time": "12:00",
+                    "title": "Stiegl-Brauwelt",
+                    "category": "Sightseeing / Food Culture",
+                    "priority": "Medium",
+                    "status": "Planned",
+                    "location": "Stiegl-Brauwelt",
+                    "address": "Braeuhausstrasse 9, 5020 Salzburg, Austria",
+                    "transport": "Walk",
+                    "opening_booking_notes": "Salzburg Card may include museum entry. Guided tours may cost extra.",
+                    "weather_sensitivity": "Low",
+                    "catch_up_eligibility": true,
+                    "can_skip": true,
+                    "notes": "Check current pass coverage and tour rules.",
+                    "food_options": []
+                },
+                {
+                    "start_time": "12:00",
+                    "end_time": "13:15",
+                    "title": "Return and river / Mirabell rest",
+                    "category": "Transport / Rest",
+                    "priority": "Medium",
+                    "status": "Planned",
+                    "location": "Stiegl to centre",
+                    "address": "From: Braeuhausstrasse 9; To: Mirabell / Salzach centre, Salzburg",
+                    "transport": "Bus + walk",
+                    "opening_booking_notes": "No booking required",
+                    "weather_sensitivity": "Medium",
+                    "catch_up_eligibility": true,
+                    "can_skip": true,
+                    "notes": "Buffer before Augustiner lunch.",
+                    "food_options": []
+                },
+                {
+                    "start_time": "13:15",
+                    "end_time": "14:15",
+                    "title": "Mozart Residence or Mozart Birthplace",
+                    "category": "Museum / Sightseeing",
+                    "priority": "Medium",
+                    "status": "Planned",
+                    "location": "Makartplatz / Getreidegasse",
+                    "address": "Mozart Residence: Makartplatz 8, 5020 Salzburg; Mozart Birthplace: Getreidegasse 9, 5020 Salzburg",
+                    "transport": "Walk / bus",
+                    "opening_booking_notes": "Salzburg Card usually covers entry",
+                    "weather_sensitivity": "Low",
+                    "catch_up_eligibility": true,
+                    "can_skip": true,
+                    "notes": "Pick one Mozart site.",
+                    "food_options": []
+                },
+                {
+                    "start_time": "14:30",
+                    "end_time": "16:00",
+                    "title": "Augustiner Braeu Muelln lunch",
+                    "category": "Food",
+                    "priority": "High",
+                    "status": "Planned",
+                    "location": "Muelln",
+                    "address": "Lindhofstrasse 7, 5020 Salzburg, Austria",
+                    "transport": "Walk / bus",
+                    "opening_booking_notes": "Bring cash. Check opening and food hall hours.",
+                    "weather_sensitivity": "Low",
+                    "catch_up_eligibility": false,
+                    "can_skip": false,
+                    "notes": "Lunch slot, not dinner. Food from market-style stalls.",
+                    "food_options": [
+                        {
+                            "name": "Augustiner Braeu Muelln",
+                            "address": "Lindhofstrasse 7, 5020 Salzburg, Austria",
+                            "recommended_order": "Stone-mug beer, pretzel, roast pork, grilled chicken, market snacks",
+                            "route_fit": "Best lunch anchor for this day"
+                        }
+                    ]
+                },
+                {
+                    "start_time": "16:00",
+                    "end_time": "17:30",
+                    "title": "Rest or Salzach river walk",
+                    "category": "Walk / Rest",
+                    "priority": "Medium",
+                    "status": "Planned",
+                    "location": "Muelln to Salzach / Mirabell",
+                    "address": "From: Lindhofstrasse 7; To: Salzach river / Mirabell area, Salzburg",
+                    "transport": "Walk / bus",
+                    "opening_booking_notes": "No booking required",
+                    "weather_sensitivity": "Medium",
+                    "catch_up_eligibility": true,
+                    "can_skip": true,
+                    "notes": "No coffee after 16:00.",
+                    "food_options": []
+                },
+                {
+                    "start_time": "18:30",
+                    "end_time": "20:00",
+                    "title": "Light dinner",
+                    "category": "Food",
+                    "priority": "Medium",
+                    "status": "Planned",
+                    "location": "Old Town / hotel area",
+                    "address": "Near Old Town or Rainerstrasse, Salzburg",
+                    "transport": "Walk / bus",
+                    "opening_booking_notes": "No booking required",
+                    "weather_sensitivity": "Low",
+                    "catch_up_eligibility": true,
+                    "can_skip": true,
+                    "notes": "Keep light after late Augustiner lunch.",
+                    "food_options": [
+                        {
+                            "name": "IMLAUER Sky Bar & Restaurant",
+                            "address": "Rainerstrasse 6, 5020 Salzburg, Austria",
+                            "recommended_order": "Light Austrian plate, soup, salad",
+                            "route_fit": "Near hotel / Hbf side"
+                        },
+                        {
+                            "name": "Zum fidelen Affen",
+                            "address": "Priesterhausgasse 8, 5020 Salzburg, Austria",
+                            "recommended_order": "Soup, sausages, small Austrian plate",
+                            "route_fit": "Near Linzer Gasse"
+                        },
+                        {
+                            "name": "Simple Old Town dinner",
+                            "address": "Salzburg Old Town, 5020 Salzburg, Austria",
+                            "recommended_order": "Soup, salad, sausages, small plate",
+                            "route_fit": "Flexible backup"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "day": 6,
+            "date": "2026-10-11",
+            "display_date": "11 Oct",
+            "weekday": "Sunday",
+            "city": "Salzburg",
+            "theme": "Salzburg Old Town, DomQuartier, Moenchsberg, and relaxed final Salzburg stroll",
+            "items": [
+                {
+                    "start_time": "09:15",
+                    "end_time": "10:20",
+                    "title": "Breakfast / tea time",
+                    "category": "Food",
+                    "priority": "Medium",
+                    "status": "Planned",
+                    "location": "Mirabell / Old Town",
+                    "address": "Mirabell / Old Town, Salzburg",
+                    "transport": "Walk",
+                    "opening_booking_notes": "Check cafe hours",
+                    "weather_sensitivity": "Low",
+                    "catch_up_eligibility": false,
+                    "can_skip": true,
+                    "notes": "Coffee and breakfast before Old Town museums.",
+                    "food_options": [
+                        {
+                            "name": "Cafe Fingerlos",
+                            "address": "Franz-Josef-Strasse 9, 5020 Salzburg, Austria",
+                            "recommended_order": "Melange, pastry, breakfast plate",
+                            "route_fit": "Near Mirabell side"
+                        },
+                        {
+                            "name": "Cafe Tomaselli",
+                            "address": "Alter Markt 9, 5020 Salzburg, Austria",
+                            "recommended_order": "Cake, melange, classic cafe pastry",
+                            "route_fit": "Old Town option"
+                        },
+                        {
+                            "name": "220GRAD Rupertinum",
+                            "address": "Wiener-Philharmoniker-Gasse 9, 5020 Salzburg, Austria",
+                            "recommended_order": "Egg brioche, veggie bread, French toast, coffee",
+                            "route_fit": "Near Old Town / Rupertinum"
+                        }
+                    ]
+                },
+                {
+                    "start_time": "10:20",
+                    "end_time": "11:30",
+                    "title": "DomQuartier and Cathedral area",
+                    "category": "Museum / Sightseeing",
+                    "priority": "High",
+                    "status": "Planned",
+                    "location": "DomQuartier",
+                    "address": "Residenzplatz 1, 5020 Salzburg, Austria",
+                    "transport": "Walk",
+                    "opening_booking_notes": "Salzburg Card usually covers entry",
+                    "weather_sensitivity": "Low",
+                    "catch_up_eligibility": true,
+                    "can_skip": false,
+                    "notes": "Strong pass value.",
+                    "food_options": []
+                },
+                {
+                    "start_time": "11:30",
+                    "end_time": "12:15",
+                    "title": "Mozart Birthplace / Getreidegasse backup",
+                    "category": "Museum / Sightseeing",
+                    "priority": "Medium",
+                    "status": "Optional",
+                    "location": "Getreidegasse",
+                    "address": "Mozart Birthplace: Getreidegasse 9, 5020 Salzburg, Austria",
+                    "transport": "Walk",
+                    "opening_booking_notes": "Salzburg Card usually covers entry",
+                    "weather_sensitivity": "Low",
+                    "catch_up_eligibility": true,
+                    "can_skip": true,
+                    "notes": "Use only if not done on previous day.",
+                    "food_options": []
+                },
+                {
+                    "start_time": "12:15",
+                    "end_time": "13:00",
+                    "title": "Lunch",
+                    "category": "Food",
+                    "priority": "Medium",
+                    "status": "Planned",
+                    "location": "Old Town",
+                    "address": "Getreidegasse / Old Town, Salzburg",
+                    "transport": "Walk",
+                    "opening_booking_notes": "No booking required",
+                    "weather_sensitivity": "Low",
+                    "catch_up_eligibility": true,
+                    "can_skip": false,
+                    "notes": "Quick casual Old Town lunch.",
+                    "food_options": [
+                        {
+                            "name": "Balkan Grill Walter",
+                            "address": "Getreidegasse 33, 5020 Salzburg, Austria",
+                            "recommended_order": "Original Salzburger Bosna",
+                            "route_fit": "Best route-fit quick lunch"
+                        },
+                        {
+                            "name": "Salzburger Grill Imbiss",
+                            "address": "Old Town, Salzburg - verify exact address before going",
+                            "recommended_order": "Sausage / casual grill snack",
+                            "route_fit": "Old Town backup"
+                        },
+                        {
+                            "name": "Zum fidelen Affen",
+                            "address": "Priesterhausgasse 8, 5020 Salzburg, Austria",
+                            "recommended_order": "Austrian casual lunch",
+                            "route_fit": "Linzer Gasse backup"
+                        }
+                    ]
+                },
+                {
+                    "start_time": "13:15",
+                    "end_time": "14:30",
+                    "title": "Moenchsberg Lift / Museum der Moderne / viewpoint",
+                    "category": "Sightseeing / Museum",
+                    "priority": "Medium",
+                    "status": "Planned",
+                    "location": "Moenchsberg",
+                    "address": "Moenchsberg Lift: Gstaettengasse 13, 5020 Salzburg; Museum der Moderne: Moenchsberg 32, 5020 Salzburg",
+                    "transport": "Walk + lift",
+                    "opening_booking_notes": "Salzburg Card may cover lift and museum",
+                    "weather_sensitivity": "Medium",
+                    "catch_up_eligibility": true,
+                    "can_skip": true,
+                    "notes": "Viewpoint with low commute.",
+                    "food_options": []
+                },
+                {
+                    "start_time": "14:30",
+                    "end_time": "15:30",
+                    "title": "Tea time / bakery backup",
+                    "category": "Food",
+                    "priority": "Medium",
+                    "status": "Optional",
+                    "location": "Old Town",
+                    "address": "Old Town, Salzburg",
+                    "transport": "Walk",
+                    "opening_booking_notes": "Finish before 16:00",
+                    "weather_sensitivity": "Low",
+                    "catch_up_eligibility": true,
+                    "can_skip": true,
+                    "notes": "Final Salzburg sweets/bakery slot.",
+                    "food_options": [
+                        {
+                            "name": "Cafe Fuerst",
+                            "address": "Brodgasse 13, 5020 Salzburg, Austria",
+                            "recommended_order": "Original Salzburger Mozartkugel, cake, coffee",
+                            "route_fit": "Old Town"
+                        },
+                        {
+                            "name": "Stiftsbaeckerei St Peter",
+                            "address": "Kapitelplatz 8, 5020 Salzburg, Austria",
+                            "recommended_order": "Sourdough bread, pastry",
+                            "route_fit": "Near St. Peter"
+                        },
+                        {
+                            "name": "Joseph Brot Salzburg",
+                            "address": "Old Town / Muenzgasse area, Salzburg - verify exact branch before going",
+                            "recommended_order": "Sourdough pastry, bread snack",
+                            "route_fit": "Old Town backup"
+                        }
+                    ]
+                },
+                {
+                    "start_time": "15:30",
+                    "end_time": "17:30",
+                    "title": "Old Town slow wander / Salzach walk",
+                    "category": "Walk / Sightseeing",
+                    "priority": "Medium",
+                    "status": "Planned",
+                    "location": "Old Town / Salzach",
+                    "address": "Salzburg Old Town and Salzach riverfront, 5020 Salzburg, Austria",
+                    "transport": "Walk",
+                    "opening_booking_notes": "No booking required",
+                    "weather_sensitivity": "Medium",
+                    "catch_up_eligibility": true,
+                    "can_skip": true,
+                    "notes": "Final Salzburg stroll.",
+                    "food_options": []
+                },
+                {
+                    "start_time": "18:30",
+                    "end_time": "20:30",
+                    "title": "Dinner",
+                    "category": "Food",
+                    "priority": "High",
+                    "status": "Planned",
+                    "location": "Old Town",
+                    "address": "Salzburg Old Town, 5020 Salzburg, Austria",
+                    "transport": "Walk / bus",
+                    "opening_booking_notes": "Reserve if choosing popular restaurant",
+                    "weather_sensitivity": "Low",
+                    "catch_up_eligibility": false,
+                    "can_skip": false,
+                    "notes": "Good final Salzburg dinner.",
+                    "food_options": [
+                        {
+                            "name": "Zwettler's Wirtshaus",
+                            "address": "Kaigasse 3, 5020 Salzburg, Austria",
+                            "recommended_order": "Beer goulash, schnitzel, Salzburger Nockerl",
+                            "route_fit": "Reliable Old Town option"
+                        },
+                        {
+                            "name": "St. Peter Stiftskulinarium",
+                            "address": "St.-Peter-Bezirk 1/4, 5020 Salzburg, Austria",
+                            "recommended_order": "Austrian classics, refined dinner",
+                            "route_fit": "Special final Salzburg dinner"
+                        },
+                        {
+                            "name": "Zum fidelen Affen",
+                            "address": "Priesterhausgasse 8, 5020 Salzburg, Austria",
+                            "recommended_order": "Austrian dinner, beer, comfort dishes",
+                            "route_fit": "Linzer Gasse backup"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "day": 7,
+            "date": "2026-10-12",
+            "display_date": "12 Oct",
+            "weekday": "Monday",
+            "city": "Salzburg / Obertraun / Hallstatt",
+            "theme": "Salzburg to Obertraun and Hallstatt salt mine / village",
+            "items": [
+                {
+                    "start_time": "07:00",
+                    "end_time": "07:30",
+                    "title": "Optional breakfast to-go",
+                    "category": "Food",
+                    "priority": "Medium",
+                    "status": "Optional",
+                    "location": "Salzburg Hbf / hotel area",
+                    "address": "Near Arte Hotel Salzburg or Salzburg Hbf",
+                    "transport": "Walk",
+                    "opening_booking_notes": "Check station bakery hours",
+                    "weather_sensitivity": "Low",
+                    "catch_up_eligibility": false,
+                    "can_skip": true,
+                    "notes": "Early rail day; do not force a sit-down breakfast.",
+                    "food_options": [
+                        {
+                            "name": "Arte Hotel breakfast",
+                            "address": "Rainerstrasse 28, 5020 Salzburg, Austria",
+                            "recommended_order": "Hotel breakfast if timing works",
+                            "route_fit": "At accommodation"
+                        },
+                        {
+                            "name": "Anker Snack & Coffee Salzburg Hbf",
+                            "address": "Salzburg Hbf, Suedtiroler Platz 1, 5020 Salzburg, Austria",
+                            "recommended_order": "Sandwich, croissant, coffee",
+                            "route_fit": "At train station"
+                        },
+                        {
+                            "name": "Le Crobag Salzburg Hbf",
+                            "address": "Salzburg Hbf, Suedtiroler Platz 1, 5020 Salzburg, Austria",
+                            "recommended_order": "Baguette, croissant, sandwich",
+                            "route_fit": "At train station"
+                        }
+                    ]
+                },
+                {
+                    "start_time": "07:30",
+                    "end_time": "07:45",
+                    "title": "Checkout and leave Salzburg",
+                    "category": "Logistics",
+                    "priority": "High",
+                    "status": "Planned",
+                    "location": "Salzburg Hbf area",
+                    "address": "Arte Hotel Salzburg, Rainerstrasse 28, 5020 Salzburg, Austria",
+                    "transport": "Walk",
+                    "opening_booking_notes": "Confirm checkout and bag readiness",
+                    "weather_sensitivity": "Low",
+                    "catch_up_eligibility": false,
+                    "can_skip": false,
+                    "notes": "Early start.",
+                    "food_options": []
+                },
+                {
+                    "start_time": "07:45",
+                    "end_time": "11:00",
+                    "title": "Travel Salzburg to Obertraun",
+                    "category": "Transport / Rail",
+                    "priority": "High",
+                    "status": "Planned",
+                    "location": "Salzburg to Obertraun",
+                    "address": "From: Salzburg Hbf, Suedtiroler Platz 1, 5020 Salzburg; To: Obertraun-Dachsteinhoehlen station, 4831 Obertraun",
+                    "transport": "Regional train / mixed rail",
+                    "opening_booking_notes": "Separate train ticket. Check OeBB the day before.",
+                    "weather_sensitivity": "Medium",
+                    "catch_up_eligibility": false,
+                    "can_skip": false,
+                    "notes": "Expect regional connections and possible transfers.",
+                    "food_options": []
+                },
+                {
+                    "start_time": "11:00",
+                    "end_time": "12:00",
+                    "title": "Arrive and drop bags",
+                    "category": "Accommodation / Logistics",
+                    "priority": "High",
+                    "status": "Planned",
+                    "location": "Obertraun",
+                    "address": "Obertraun 95/8, 4831 Obertraun, Austria",
+                    "transport": "Walk / taxi",
+                    "opening_booking_notes": "Confirm bag drop or check-in policy",
+                    "weather_sensitivity": "Low",
+                    "catch_up_eligibility": false,
+                    "can_skip": false,
+                    "notes": "Drop bags before Hallstatt.",
+                    "food_options": []
+                },
+                {
+                    "start_time": "12:00",
+                    "end_time": "13:15",
+                    "title": "Transfer to Hallstatt / Salzwelten base",
+                    "category": "Transport",
+                    "priority": "High",
+                    "status": "Planned",
+                    "location": "Obertraun to Hallstatt",
+                    "address": "From: Obertraun 95/8, 4831 Obertraun; To: Salzbergstrasse 21, 4830 Hallstatt",
+                    "transport": "Bus / train + ferry / taxi",
+                    "opening_booking_notes": "Use live connection. Local transport separate.",
+                    "weather_sensitivity": "Medium",
+                    "catch_up_eligibility": false,
+                    "can_skip": false,
+                    "notes": "Choose fastest available option.",
+                    "food_options": []
+                },
+                {
+                    "start_time": "13:30",
+                    "end_time": "16:30",
+                    "title": "Salzwelten Hallstatt and Skywalk",
+                    "category": "Sightseeing",
+                    "priority": "High",
+                    "status": "Planned",
+                    "location": "Hallstatt / Salzberg",
+                    "address": "Salzbergstrasse 21, 4830 Hallstatt, Austria",
+                    "transport": "Funicular / walk",
+                    "opening_booking_notes": "Paid timed attraction. Re-check 2026 reopening and book ahead.",
+                    "weather_sensitivity": "Medium",
+                    "catch_up_eligibility": true,
+                    "can_skip": false,
+                    "notes": "Major Hallstatt activity if open. If closed, replace with Hallstatt village and lake walk.",
+                    "food_options": []
+                },
+                {
+                    "start_time": "16:30",
+                    "end_time": "18:00",
+                    "title": "Hallstatt village walk",
+                    "category": "Sightseeing / Walk",
+                    "priority": "High",
+                    "status": "Planned",
+                    "location": "Hallstatt lakefront",
+                    "address": "Hallstatt Marktplatz / lakefront, 4830 Hallstatt, Austria",
+                    "transport": "Walk",
+                    "opening_booking_notes": "No booking required",
+                    "weather_sensitivity": "High",
+                    "catch_up_eligibility": true,
+                    "can_skip": false,
+                    "notes": "Free lakefront and classic viewpoint walk.",
+                    "food_options": []
+                },
+                {
+                    "start_time": "18:00",
+                    "end_time": "20:00",
+                    "title": "Dinner",
+                    "category": "Food",
+                    "priority": "High",
+                    "status": "Planned",
+                    "location": "Hallstatt or Obertraun",
+                    "address": "Hallstatt / Obertraun dinner area",
+                    "transport": "Walk / bus / taxi",
+                    "opening_booking_notes": "Reserve if possible. Evening options limited.",
+                    "weather_sensitivity": "Low",
+                    "catch_up_eligibility": false,
+                    "can_skip": false,
+                    "notes": "Plan dinner carefully because small-village evening options can be limited.",
+                    "food_options": [
+                        {
+                            "name": "Restaurant im Seehotel Gruener Baum",
+                            "address": "Marktplatz 104, 4830 Hallstatt, Austria",
+                            "recommended_order": "Lake fish, goulash, schnitzel, soup",
+                            "route_fit": "Hallstatt lakefront"
+                        },
+                        {
+                            "name": "Braugasthof Hallstatt",
+                            "address": "Seestrasse 120, 4830 Hallstatt, Austria",
+                            "recommended_order": "Austrian dishes, fish, schnitzel",
+                            "route_fit": "Hallstatt centre / lakefront"
+                        },
+                        {
+                            "name": "Obertraun local dinner",
+                            "address": "Obertraun village area, 4831 Obertraun, Austria",
+                            "recommended_order": "Soup, schnitzel, goulash, local Austrian dishes",
+                            "route_fit": "Best if returning early to Obertraun"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "day": 8,
+            "date": "2026-10-13",
+            "display_date": "13 Oct",
+            "weekday": "Tuesday",
+            "city": "Obertraun / Dachstein",
+            "theme": "Dachstein mountain day and Ice Cave",
+            "items": [
+                {
+                    "start_time": "08:00",
+                    "end_time": "08:40",
+                    "title": "Breakfast",
+                    "category": "Food",
+                    "priority": "Medium",
+                    "status": "Planned",
+                    "location": "Obertraun / Dachstein route",
+                    "address": "Obertraun village or accommodation area, 4831 Obertraun",
+                    "transport": "Walk / bus / taxi",
+                    "opening_booking_notes": "Check local bakery or accommodation breakfast availability",
+                    "weather_sensitivity": "Low",
+                    "catch_up_eligibility": false,
+                    "can_skip": false,
+                    "notes": "Eat before the mountain day and carry water/snacks.",
+                    "food_options": [
+                        {
+                            "name": "Accommodation breakfast",
+                            "address": "Obertraun 95/8, 4831 Obertraun, Austria",
+                            "recommended_order": "Simple breakfast, coffee, packed snack if possible",
+                            "route_fit": "At accommodation"
+                        },
+                        {
+                            "name": "Kurt's Mammut Express",
+                            "address": "Near Obertraun-Dachsteinhoehlen station, 4831 Obertraun - verify exact opening",
+                            "recommended_order": "Leberkaese sandwich, apple strudel, coffee",
+                            "route_fit": "Station-side quick option"
+                        },
+                        {
+                            "name": "Mountain station snack",
+                            "address": "Dachstein Krippenstein base / mountain stations, 4831 Obertraun",
+                            "recommended_order": "Pastry, sandwich, hot drink",
+                            "route_fit": "Use only if breakfast is missed"
+                        }
+                    ]
+                },
+                {
+                    "start_time": "09:00",
+                    "end_time": "09:30",
+                    "title": "Leave for Dachstein Krippenstein",
+                    "category": "Transport",
+                    "priority": "High",
+                    "status": "Planned",
+                    "location": "Obertraun",
+                    "address": "From: Obertraun village; To: Winkl 34, 4831 Obertraun",
+                    "transport": "Bus / taxi",
+                    "opening_booking_notes": "Check live transport and mountain operating status",
+                    "weather_sensitivity": "Medium",
+                    "catch_up_eligibility": false,
+                    "can_skip": false,
+                    "notes": "Mountain day. Weather check matters.",
+                    "food_options": []
+                },
+                {
+                    "start_time": "09:30",
+                    "end_time": "10:15",
+                    "title": "Cable car and cave registration",
+                    "category": "Transport / Ticketing",
+                    "priority": "High",
+                    "status": "Planned",
+                    "location": "Dachstein Krippenstein",
+                    "address": "Winkl 34, 4831 Obertraun, Austria",
+                    "transport": "Cable car",
+                    "opening_booking_notes": "Paid cable car / cave ticket required",
+                    "weather_sensitivity": "High",
+                    "catch_up_eligibility": false,
+                    "can_skip": false,
+                    "notes": "Register for cave tour.",
+                    "food_options": []
+                },
+                {
+                    "start_time": "10:15",
+                    "end_time": "12:15",
+                    "title": "Dachstein Giant Ice Cave",
+                    "category": "Sightseeing / Nature",
+                    "priority": "High",
+                    "status": "Planned",
+                    "location": "Dachstein Ice Cave",
+                    "address": "Dachstein Giant Ice Cave, Dachstein Krippenstein, 4831 Obertraun, Austria",
+                    "transport": "Walk + guided tour",
+                    "opening_booking_notes": "Paid guided cave tour. Check tour availability.",
+                    "weather_sensitivity": "Medium",
+                    "catch_up_eligibility": true,
+                    "can_skip": false,
+                    "notes": "Warm clothing and sturdy shoes required.",
+                    "food_options": []
+                },
+                {
+                    "start_time": "12:15",
+                    "end_time": "13:30",
+                    "title": "Mountain lunch",
+                    "category": "Food",
+                    "priority": "Medium",
+                    "status": "Planned",
+                    "location": "Schoenbergalm / Dachstein",
+                    "address": "Schoenbergalm / Dachstein Krippenstein mountain area, 4831 Obertraun",
+                    "transport": "Walk",
+                    "opening_booking_notes": "Check mountain restaurant opening",
+                    "weather_sensitivity": "Medium",
+                    "catch_up_eligibility": true,
+                    "can_skip": true,
+                    "notes": "Eat on mountain if open.",
+                    "food_options": [
+                        {
+                            "name": "Restaurant Schoenbergalm",
+                            "address": "Schoenbergalm, Dachstein Krippenstein, 4831 Obertraun, Austria",
+                            "recommended_order": "Soup, schnitzel, sausage, hot chocolate",
+                            "route_fit": "Near cave / middle station"
+                        },
+                        {
+                            "name": "Lodge am Krippenstein",
+                            "address": "Krippenstein mountain station area, 4831 Obertraun, Austria",
+                            "recommended_order": "Mountain lunch, soup, hot drink",
+                            "route_fit": "If going higher up"
+                        },
+                        {
+                            "name": "Packed backup snack",
+                            "address": "Bring from Obertraun",
+                            "recommended_order": "Sandwich, pastry, water",
+                            "route_fit": "Use if mountain restaurant timing is awkward"
+                        }
+                    ]
+                },
+                {
+                    "start_time": "13:30",
+                    "end_time": "15:30",
+                    "title": "Flexible Dachstein time",
+                    "category": "Sightseeing / Nature",
+                    "priority": "Medium",
+                    "status": "Optional",
+                    "location": "Dachstein Krippenstein",
+                    "address": "Dachstein Krippenstein / 5 Fingers area, 4831 Obertraun, Austria",
+                    "transport": "Walk / cable car",
+                    "opening_booking_notes": "Optional paid cable-car segments",
+                    "weather_sensitivity": "High",
+                    "catch_up_eligibility": true,
+                    "can_skip": true,
+                    "notes": "Add 5 Fingers only if visibility is good.",
+                    "food_options": []
+                },
+                {
+                    "start_time": "15:30",
+                    "end_time": "17:00",
+                    "title": "Descend and return to Obertraun",
+                    "category": "Transport",
+                    "priority": "High",
+                    "status": "Planned",
+                    "location": "Dachstein to Obertraun",
+                    "address": "From: Winkl 34, 4831 Obertraun; To: Obertraun village / accommodation",
+                    "transport": "Cable car + bus / taxi",
+                    "opening_booking_notes": "Check last cable car and last bus",
+                    "weather_sensitivity": "High",
+                    "catch_up_eligibility": false,
+                    "can_skip": false,
+                    "notes": "Do not rely on final cable car.",
+                    "food_options": []
+                },
+                {
+                    "start_time": "18:00",
+                    "end_time": "20:00",
+                    "title": "Dinner",
+                    "category": "Food",
+                    "priority": "High",
+                    "status": "Planned",
+                    "location": "Obertraun or Hallstatt",
+                    "address": "Obertraun / Hallstatt dinner area",
+                    "transport": "Walk / bus / taxi",
+                    "opening_booking_notes": "Reserve if possible",
+                    "weather_sensitivity": "Low",
+                    "catch_up_eligibility": false,
+                    "can_skip": false,
+                    "notes": "Relaxed local Austrian dinner.",
+                    "food_options": [
+                        {
+                            "name": "Obertraun local restaurant",
+                            "address": "Obertraun village area, 4831 Obertraun, Austria",
+                            "recommended_order": "Local Austrian dishes, soup, schnitzel",
+                            "route_fit": "Low-commute option"
+                        },
+                        {
+                            "name": "Restaurant im Seehotel Gruener Baum",
+                            "address": "Marktplatz 104, 4830 Hallstatt, Austria",
+                            "recommended_order": "Lake fish, goulash, schnitzel",
+                            "route_fit": "Hallstatt option if transport works"
+                        },
+                        {
+                            "name": "Braugasthof Hallstatt",
+                            "address": "Seestrasse 120, 4830 Hallstatt, Austria",
+                            "recommended_order": "Austrian dinner, fish, beer",
+                            "route_fit": "Hallstatt backup"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "day": 9,
+            "date": "2026-10-14",
+            "display_date": "14 Oct",
+            "weekday": "Wednesday",
+            "city": "Hallstatt / Obertraun / Innsbruck",
+            "theme": "Hallstatt sunrise, long rail day, and Innsbruck arrival",
+            "items": [
+                {
+                    "start_time": "06:45",
+                    "end_time": "08:30",
+                    "title": "Early Hallstatt lakefront view",
+                    "category": "Sightseeing / Walk",
+                    "priority": "Medium",
+                    "status": "Optional",
+                    "location": "Hallstatt",
+                    "address": "Hallstatt lakefront / classic viewpoint, 4830 Hallstatt, Austria",
+                    "transport": "Bus / taxi / ferry-train combo + walk",
+                    "opening_booking_notes": "Check early transport options",
+                    "weather_sensitivity": "High",
+                    "catch_up_eligibility": true,
+                    "can_skip": true,
+                    "notes": "Quiet view before visitors. No coffee before 08:00.",
+                    "food_options": []
+                },
+                {
+                    "start_time": "08:30",
+                    "end_time": "09:30",
+                    "title": "Breakfast and collect bags",
+                    "category": "Food / Logistics",
+                    "priority": "High",
+                    "status": "Planned",
+                    "location": "Obertraun / Hallstatt",
+                    "address": "Obertraun / Hallstatt breakfast area",
+                    "transport": "Bus / taxi / walk",
+                    "opening_booking_notes": "Check cafe or bakery opening hours",
+                    "weather_sensitivity": "Low",
+                    "catch_up_eligibility": false,
+                    "can_skip": false,
+                    "notes": "Coffee allowed after 08:00. Keep this quick before the long train day.",
+                    "food_options": [
+                        {
+                            "name": "Cafe Baeckerei Konditorei Maislinger",
+                            "address": "Hallstatt lakefront / Seestrasse area, 4830 Hallstatt - verify exact address before going",
+                            "recommended_order": "Hot sandwich, apple strudel, cheese croissant, pastry, coffee",
+                            "route_fit": "Good after lakefront if open"
+                        },
+                        {
+                            "name": "Cafe Derbl",
+                            "address": "Hallstatt Marktplatz area, 4830 Hallstatt, Austria",
+                            "recommended_order": "Pastry, small snack, coffee",
+                            "route_fit": "Hallstatt centre backup"
+                        },
+                        {
+                            "name": "Obertraun station snack",
+                            "address": "Obertraun-Dachsteinhoehlen station area, 4831 Obertraun, Austria",
+                            "recommended_order": "Sandwich, pastry, coffee",
+                            "route_fit": "Practical before train"
+                        }
+                    ]
+                },
+                {
+                    "start_time": "09:30",
+                    "end_time": "10:30",
+                    "title": "Checkout and prepare for train",
+                    "category": "Logistics",
+                    "priority": "High",
+                    "status": "Planned",
+                    "location": "Obertraun",
+                    "address": "Obertraun 95/8, 4831 Obertraun, Austria",
+                    "transport": "Walk",
+                    "opening_booking_notes": "Confirm checkout timing",
+                    "weather_sensitivity": "Low",
+                    "catch_up_eligibility": false,
+                    "can_skip": false,
+                    "notes": "Prepare for long rail day.",
+                    "food_options": []
+                },
+                {
+                    "start_time": "10:30",
+                    "end_time": "16:30",
+                    "title": "Travel Obertraun to Innsbruck",
+                    "category": "Transport / Rail",
+                    "priority": "High",
+                    "status": "Planned",
+                    "location": "Obertraun to Innsbruck",
+                    "address": "From: Obertraun-Dachsteinhoehlen station; To: Innsbruck Hbf, Suedbahnstrasse 1 area, 6020 Innsbruck",
+                    "transport": "Regional + intercity train",
+                    "opening_booking_notes": "Separate rail ticket. Check transfers.",
+                    "weather_sensitivity": "Medium",
+                    "catch_up_eligibility": false,
+                    "can_skip": false,
+                    "notes": "Expect transfers.",
+                    "food_options": []
+                },
+                {
+                    "start_time": "16:30",
+                    "end_time": "18:00",
+                    "title": "Arrive and check in",
+                    "category": "Accommodation / Logistics",
+                    "priority": "High",
+                    "status": "Planned",
+                    "location": "Innsbruck Hbf area",
+                    "address": "Motel One Innsbruck, Suedbahnstrasse 1, 6020 Innsbruck, Austria",
+                    "transport": "Walk",
+                    "opening_booking_notes": "Confirm check-in timing",
+                    "weather_sensitivity": "Low",
+                    "catch_up_eligibility": false,
+                    "can_skip": false,
+                    "notes": "Convenient station base.",
+                    "food_options": []
+                },
+                {
+                    "start_time": "18:00",
+                    "end_time": "19:30",
+                    "title": "Innsbruck Old Town loop",
+                    "category": "Sightseeing / Walk",
+                    "priority": "Medium",
+                    "status": "Planned",
+                    "location": "Innsbruck Old Town",
+                    "address": "Golden Roof: Herzog-Friedrich-Strasse 15, 6020 Innsbruck; City Tower: Herzog-Friedrich-Strasse 21, 6020 Innsbruck; Markthalle: Herzog-Siegmund-Ufer 1-3, 6020 Innsbruck",
+                    "transport": "Walk",
+                    "opening_booking_notes": "No booking required for exterior route",
+                    "weather_sensitivity": "Medium",
+                    "catch_up_eligibility": true,
+                    "can_skip": false,
+                    "notes": "Golden Roof exterior, Stadtturm exterior, Markthalle edge, Inn River.",
+                    "food_options": []
+                },
+                {
+                    "start_time": "19:30",
+                    "end_time": "21:00",
+                    "title": "Dinner",
+                    "category": "Food",
+                    "priority": "High",
+                    "status": "Planned",
+                    "location": "Innsbruck centre",
+                    "address": "Innsbruck Old Town / centre, 6020 Innsbruck, Austria",
+                    "transport": "Walk",
+                    "opening_booking_notes": "Reserve if desired",
+                    "weather_sensitivity": "Low",
+                    "catch_up_eligibility": false,
+                    "can_skip": false,
+                    "notes": "Choose one near the walking route.",
+                    "food_options": [
+                        {
+                            "name": "Trattoria-Pizzeria Due Sicilie",
+                            "address": "Innsbruck centre - verify exact current address before going",
+                            "recommended_order": "Wood-fired pizza",
+                            "route_fit": "Dinner near centre"
+                        },
+                        {
+                            "name": "Tony's",
+                            "address": "Innsbruck centre - verify exact current address before going",
+                            "recommended_order": "Pizza / Italian backup",
+                            "route_fit": "Dinner near centre"
+                        },
+                        {
+                            "name": "Stiftskeller",
+                            "address": "Stiftgasse 1, 6020 Innsbruck, Austria",
+                            "recommended_order": "Tyrolean plate, schnitzel, dumplings",
+                            "route_fit": "Old Town Austrian backup"
+                        }
+                    ]
+                },
+                {
+                    "start_time": "21:00",
+                    "end_time": "21:30",
+                    "title": "Supper / dessert walk",
+                    "category": "Food / Walk",
+                    "priority": "Low",
+                    "status": "Optional",
+                    "location": "Old Town / Inn River",
+                    "address": "Innsbruck Old Town, 6020 Innsbruck, Austria",
+                    "transport": "Walk",
+                    "opening_booking_notes": "No coffee",
+                    "weather_sensitivity": "Low",
+                    "catch_up_eligibility": true,
+                    "can_skip": true,
+                    "notes": "Gelato or dessert only.",
+                    "food_options": [
+                        {
+                            "name": "Tomaselli Gelateria",
+                            "address": "Innsbruck Old Town / centre - verify exact address before going",
+                            "recommended_order": "Gelato",
+                            "route_fit": "Dessert walk option"
+                        },
+                        {
+                            "name": "Cafe Munding dessert counter",
+                            "address": "Kiebachgasse 16, 6020 Innsbruck, Austria",
+                            "recommended_order": "Cake or pastry if open",
+                            "route_fit": "Old Town dessert backup"
+                        },
+                        {
+                            "name": "Simple gelato stop",
+                            "address": "Old Town / Inn River area, 6020 Innsbruck, Austria",
+                            "recommended_order": "Gelato",
+                            "route_fit": "Flexible backup"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "day": 10,
+            "date": "2026-10-15",
+            "display_date": "15 Oct",
+            "weekday": "Thursday",
+            "city": "Innsbruck",
+            "theme": "Innsbruck Card day, Nordkette, Alpenzoo, Old Town, and Experience Tirol",
+            "items": [
+                {
+                    "start_time": "09:00",
+                    "end_time": "09:35",
+                    "title": "Breakfast",
+                    "category": "Food",
+                    "priority": "Medium",
+                    "status": "Planned",
+                    "location": "Innsbruck centre / Hbf",
+                    "address": "Near Motel One / Innsbruck centre",
+                    "transport": "Walk",
+                    "opening_booking_notes": "Check cafe / bakery hours",
+                    "weather_sensitivity": "Low",
+                    "catch_up_eligibility": false,
+                    "can_skip": true,
+                    "notes": "Activate Innsbruck Card before first covered ride.",
+                    "food_options": [
+                        {
+                            "name": "Kula.Lab",
+                            "address": "Innsbruck centre - verify exact current address before going",
+                            "recommended_order": "Sourdough toast, cinnamon bun, espresso, filter coffee",
+                            "route_fit": "Nicer breakfast option before Nordkette"
+                        },
+                        {
+                            "name": "Der Baecker Ruetz Hauptbahnhof",
+                            "address": "Innsbruck Hbf, Suedbahnstrasse 1 area, 6020 Innsbruck, Austria",
+                            "recommended_order": "Croissant, pastry, filled roll, coffee",
+                            "route_fit": "Fast station-side option"
+                        },
+                        {
+                            "name": "Baguette Innsbruck Hbf",
+                            "address": "Innsbruck Hbf, Suedbahnstrasse 1 area, 6020 Innsbruck, Austria",
+                            "recommended_order": "Baked goods, savoury snack, sandwich",
+                            "route_fit": "Fast station-side option"
+                        }
+                    ]
+                },
+                {
+                    "start_time": "09:35",
+                    "end_time": "10:00",
+                    "title": "Move to Nordkette start",
+                    "category": "Transport",
+                    "priority": "High",
+                    "status": "Planned",
+                    "location": "Congress / Hungerburgbahn",
+                    "address": "Congress station / Innsbrucker Nordkettenbahnen, Rennweg 3, 6020 Innsbruck, Austria",
+                    "transport": "Walk / tram",
+                    "opening_booking_notes": "Activate Innsbruck Card before first covered ride",
+                    "weather_sensitivity": "Low",
+                    "catch_up_eligibility": false,
+                    "can_skip": false,
+                    "notes": "Use public transport where valid.",
+                    "food_options": []
+                },
+                {
+                    "start_time": "10:00",
+                    "end_time": "12:15",
+                    "title": "Nordkette / Hungerburg",
+                    "category": "Sightseeing / Nature",
+                    "priority": "High",
+                    "status": "Planned",
+                    "location": "Nordkette",
+                    "address": "Nordkette cable car route, Rennweg 3, 6020 Innsbruck, Austria",
+                    "transport": "Hungerburgbahn + cable car",
+                    "opening_booking_notes": "Innsbruck Card selected lifts included. Check weather and operation.",
+                    "weather_sensitivity": "High",
+                    "catch_up_eligibility": true,
+                    "can_skip": false,
+                    "notes": "High-value pass use.",
+                    "food_options": []
+                },
+                {
+                    "start_time": "12:15",
+                    "end_time": "13:15",
+                    "title": "Alpenzoo",
+                    "category": "Sightseeing",
+                    "priority": "Medium",
+                    "status": "Planned",
+                    "location": "Alpenzoo",
+                    "address": "Weiherburggasse 37a, 6020 Innsbruck, Austria",
+                    "transport": "Hungerburgbahn / walk",
+                    "opening_booking_notes": "Innsbruck Card included",
+                    "weather_sensitivity": "Medium",
+                    "catch_up_eligibility": true,
+                    "can_skip": true,
+                    "notes": "Logical stop on descent.",
+                    "food_options": []
+                },
+                {
+                    "start_time": "13:30",
+                    "end_time": "14:15",
+                    "title": "Lunch",
+                    "category": "Food",
+                    "priority": "Medium",
+                    "status": "Planned",
+                    "location": "Markthalle / Old Town",
+                    "address": "Markthalle / Old Town, Innsbruck",
+                    "transport": "Walk / tram",
+                    "opening_booking_notes": "No booking required",
+                    "weather_sensitivity": "Low",
+                    "catch_up_eligibility": true,
+                    "can_skip": true,
+                    "notes": "Food-market lunch.",
+                    "food_options": [
+                        {
+                            "name": "Markthalle Innsbruck",
+                            "address": "Herzog-Siegmund-Ufer 1-3, 6020 Innsbruck, Austria",
+                            "recommended_order": "Tyrolean speck and cheese bread, soup, market sandwich",
+                            "route_fit": "Near Inn River / Old Town"
+                        },
+                        {
+                            "name": "Speckeria",
+                            "address": "Old Town, Innsbruck - verify exact address before going",
+                            "recommended_order": "Speck board, cheese, bread",
+                            "route_fit": "Old Town snack/lunch option"
+                        },
+                        {
+                            "name": "Weisses Roessl",
+                            "address": "Kiebachgasse 8, 6020 Innsbruck, Austria",
+                            "recommended_order": "Tyrolean lunch, dumplings, Austrian plate",
+                            "route_fit": "Old Town backup"
+                        }
+                    ]
+                },
+                {
+                    "start_time": "14:15",
+                    "end_time": "15:15",
+                    "title": "Golden Roof and Stadtturm",
+                    "category": "Sightseeing",
+                    "priority": "Medium",
+                    "status": "Planned",
+                    "location": "Old Town",
+                    "address": "Golden Roof: Herzog-Friedrich-Strasse 15, 6020 Innsbruck; Stadtturm: Herzog-Friedrich-Strasse 21, 6020 Innsbruck",
+                    "transport": "Walk",
+                    "opening_booking_notes": "Golden Roof exterior is free. City Tower covered by Innsbruck Card.",
+                    "weather_sensitivity": "Medium",
+                    "catch_up_eligibility": true,
+                    "can_skip": false,
+                    "notes": "Strong Innsbruck Card use.",
+                    "food_options": []
+                },
+                {
+                    "start_time": "15:15",
+                    "end_time": "15:55",
+                    "title": "Tea time",
+                    "category": "Food",
+                    "priority": "Medium",
+                    "status": "Planned",
+                    "location": "Old Town / centre",
+                    "address": "Innsbruck Old Town / centre",
+                    "transport": "Walk",
+                    "opening_booking_notes": "Finish before 16:00",
+                    "weather_sensitivity": "Low",
+                    "catch_up_eligibility": true,
+                    "can_skip": true,
+                    "notes": "Final coffee/cafe stop of the day.",
+                    "food_options": [
+                        {
+                            "name": "Strudel Cafe Kroell",
+                            "address": "Hofgasse 6, 6020 Innsbruck, Austria",
+                            "recommended_order": "Apple strudel, topfen strudel, strudel tris",
+                            "route_fit": "Best route-fit tea time"
+                        },
+                        {
+                            "name": "Karaffu",
+                            "address": "Innsbruck centre - verify exact address before going",
+                            "recommended_order": "Pistachio latte, cake",
+                            "route_fit": "Cafe backup"
+                        },
+                        {
+                            "name": "Cafe Munding",
+                            "address": "Kiebachgasse 16, 6020 Innsbruck, Austria",
+                            "recommended_order": "Cake, pastry, coffee",
+                            "route_fit": "Old Town classic backup"
+                        }
+                    ]
+                },
+                {
+                    "start_time": "16:00",
+                    "end_time": "17:00",
+                    "title": "Experience Tirol",
+                    "category": "Museum / Culture",
+                    "priority": "Medium",
+                    "status": "Planned",
+                    "location": "Innsbruck centre",
+                    "address": "Maria-Theresien-Strasse 31, 6020 Innsbruck, Austria - verify exact entrance before going",
+                    "transport": "Walk",
+                    "opening_booking_notes": "Innsbruck Card included",
+                    "weather_sensitivity": "Low",
+                    "catch_up_eligibility": true,
+                    "can_skip": true,
+                    "notes": "Indoor culture block.",
+                    "food_options": []
+                },
+                {
+                    "start_time": "17:00",
+                    "end_time": "18:00",
+                    "title": "Hofgarten and Inn River walk",
+                    "category": "Walk / Sightseeing",
+                    "priority": "Low",
+                    "status": "Optional",
+                    "location": "Hofgarten / Inn River",
+                    "address": "Hofgarten, Rennweg area, 6020 Innsbruck; Emile-Bethouart-Steg, Inn River, Innsbruck",
+                    "transport": "Walk",
+                    "opening_booking_notes": "No booking required",
+                    "weather_sensitivity": "Medium",
+                    "catch_up_eligibility": true,
+                    "can_skip": true,
+                    "notes": "Scenic walk.",
+                    "food_options": []
+                },
+                {
+                    "start_time": "18:30",
+                    "end_time": "20:30",
+                    "title": "Dinner",
+                    "category": "Food",
+                    "priority": "High",
+                    "status": "Planned",
+                    "location": "Innsbruck Old Town / centre",
+                    "address": "Innsbruck Old Town / centre, 6020 Innsbruck, Austria",
+                    "transport": "Walk",
+                    "opening_booking_notes": "Reserve if desired",
+                    "weather_sensitivity": "Low",
+                    "catch_up_eligibility": false,
+                    "can_skip": false,
+                    "notes": "No coffee.",
+                    "food_options": [
+                        {
+                            "name": "Stiftskeller",
+                            "address": "Stiftgasse 1, 6020 Innsbruck, Austria",
+                            "recommended_order": "Tyrolean dinner, schnitzel, dumplings",
+                            "route_fit": "Old Town"
+                        },
+                        {
+                            "name": "Weisses Roessl",
+                            "address": "Kiebachgasse 8, 6020 Innsbruck, Austria",
+                            "recommended_order": "Tyrolean classics, dumplings, Austrian dishes",
+                            "route_fit": "Old Town"
+                        },
+                        {
+                            "name": "Due Sicilie or Tony's",
+                            "address": "Innsbruck centre - verify exact current address before going",
+                            "recommended_order": "Pizza / Italian backup",
+                            "route_fit": "Flexible backup"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "day": 11,
+            "date": "2026-10-16",
+            "display_date": "16 Oct",
+            "weekday": "Friday",
+            "city": "Innsbruck / Vienna",
+            "theme": "Swarovski Crystal Worlds and train back to Vienna",
+            "items": [
+                {
+                    "start_time": "08:00",
+                    "end_time": "08:45",
+                    "title": "Optional breakfast",
+                    "category": "Food",
+                    "priority": "Medium",
+                    "status": "Optional",
+                    "location": "Innsbruck Hbf / centre",
+                    "address": "Near Motel One / Innsbruck Hbf",
+                    "transport": "Walk",
+                    "opening_booking_notes": "Check cafe or bakery hours",
+                    "weather_sensitivity": "Low",
+                    "catch_up_eligibility": false,
+                    "can_skip": true,
+                    "notes": "Choose station-side if doing Swarovski early.",
+                    "food_options": [
+                        {
+                            "name": "Der Baecker Ruetz Hauptbahnhof",
+                            "address": "Innsbruck Hbf, Suedbahnstrasse 1 area, 6020 Innsbruck, Austria",
+                            "recommended_order": "Croissant, filled roll, coffee",
+                            "route_fit": "Near hotel / station"
+                        },
+                        {
+                            "name": "Baguette Innsbruck Hbf",
+                            "address": "Innsbruck Hbf, Suedbahnstrasse 1 area, 6020 Innsbruck, Austria",
+                            "recommended_order": "Sandwich, baked snack, coffee",
+                            "route_fit": "Near hotel / station"
+                        },
+                        {
+                            "name": "Kula.Lab",
+                            "address": "Innsbruck centre - verify exact current address before going",
+                            "recommended_order": "Sourdough, coffee",
+                            "route_fit": "Use only if not rushing"
+                        }
+                    ]
+                },
+                {
+                    "start_time": "09:00",
+                    "end_time": "09:15",
+                    "title": "Checkout and store luggage",
+                    "category": "Logistics",
+                    "priority": "High",
+                    "status": "Planned",
+                    "location": "Innsbruck Hbf area",
+                    "address": "Motel One Innsbruck, Suedbahnstrasse 1, 6020 Innsbruck, Austria",
+                    "transport": "Walk",
+                    "opening_booking_notes": "Confirm luggage storage",
+                    "weather_sensitivity": "Low",
+                    "catch_up_eligibility": false,
+                    "can_skip": false,
+                    "notes": "Keep luggage near station.",
+                    "food_options": []
+                },
+                {
+                    "start_time": "09:15",
+                    "end_time": "12:15",
+                    "title": "Swarovski Crystal Worlds",
+                    "category": "Sightseeing",
+                    "priority": "High",
+                    "status": "Planned",
+                    "location": "Wattens",
+                    "address": "Kristallweltenstrasse 1, 6112 Wattens, Austria",
+                    "transport": "Swarovski shuttle / bus",
+                    "opening_booking_notes": "Innsbruck Card may cover shuttle and attraction. Check schedule.",
+                    "weather_sensitivity": "Medium",
+                    "catch_up_eligibility": true,
+                    "can_skip": false,
+                    "notes": "Strong pass use.",
+                    "food_options": []
+                },
+                {
+                    "start_time": "12:15",
+                    "end_time": "13:15",
+                    "title": "Return to Innsbruck",
+                    "category": "Transport",
+                    "priority": "High",
+                    "status": "Planned",
+                    "location": "Wattens to Innsbruck",
+                    "address": "From: Kristallweltenstrasse 1, 6112 Wattens; To: Innsbruck Hbf, Suedbahnstrasse 1 area, 6020 Innsbruck",
+                    "transport": "Shuttle / bus",
+                    "opening_booking_notes": "Check return shuttle timing",
+                    "weather_sensitivity": "Low",
+                    "catch_up_eligibility": false,
+                    "can_skip": false,
+                    "notes": "Return for lunch and train.",
+                    "food_options": []
+                },
+                {
+                    "start_time": "13:15",
+                    "end_time": "14:15",
+                    "title": "Lunch",
+                    "category": "Food",
+                    "priority": "Medium",
+                    "status": "Planned",
+                    "location": "Innsbruck Hbf / centre",
+                    "address": "Near Innsbruck Hbf / centre",
+                    "transport": "Walk",
+                    "opening_booking_notes": "No booking required",
+                    "weather_sensitivity": "Low",
+                    "catch_up_eligibility": true,
+                    "can_skip": true,
+                    "notes": "Coffee before 16:00 only.",
+                    "food_options": [
+                        {
+                            "name": "kaffeegesellschaft",
+                            "address": "Innsbruck centre / Hbf area - verify exact current address before going",
+                            "recommended_order": "Sandwich, coffee, light lunch",
+                            "route_fit": "Near Hbf / centre"
+                        },
+                        {
+                            "name": "Colours Bar.Bistro",
+                            "address": "Innsbruck Hbf / centre area - verify exact address before going",
+                            "recommended_order": "Light lunch, sandwich, cafe food",
+                            "route_fit": "Near train route"
+                        },
+                        {
+                            "name": "Markthalle Innsbruck",
+                            "address": "Herzog-Siegmund-Ufer 1-3, 6020 Innsbruck, Austria",
+                            "recommended_order": "Market sandwich, soup, light lunch",
+                            "route_fit": "If you want a market lunch before the train"
+                        }
+                    ]
+                },
+                {
+                    "start_time": "14:30",
+                    "end_time": "18:30",
+                    "title": "Train Innsbruck to Vienna",
+                    "category": "Transport / Rail",
+                    "priority": "High",
+                    "status": "Planned",
+                    "location": "Innsbruck to Vienna",
+                    "address": "From: Innsbruck Hbf, Suedbahnstrasse 1 area, 6020 Innsbruck; To: Vienna Hbf, Am Hauptbahnhof 1, 1100 Vienna",
+                    "transport": "Intercity train / Railjet",
+                    "opening_booking_notes": "Separate rail ticket. Aim direct if available.",
+                    "weather_sensitivity": "Low",
+                    "catch_up_eligibility": false,
+                    "can_skip": false,
+                    "notes": "City cards do not cover intercity trains.",
+                    "food_options": []
+                },
+                {
+                    "start_time": "18:30",
+                    "end_time": "19:30",
+                    "title": "Travel to accommodation and check in",
+                    "category": "Transport / Accommodation",
+                    "priority": "High",
+                    "status": "Planned",
+                    "location": "Vienna Hbf to Neubau",
+                    "address": "From: Vienna Hbf, Am Hauptbahnhof 1, 1100 Vienna; To: Schottenfeldgasse 9, 1070 Vienna, Austria",
+                    "transport": "U1 + U3 / taxi",
+                    "opening_booking_notes": "Vienna City Card after validation. Airport add-on separate.",
+                    "weather_sensitivity": "Low",
+                    "catch_up_eligibility": false,
+                    "can_skip": false,
+                    "notes": "Taxi if luggage-heavy.",
+                    "food_options": []
+                },
+                {
+                    "start_time": "20:00",
+                    "end_time": "22:00",
+                    "title": "Dinner",
+                    "category": "Food",
+                    "priority": "High",
+                    "status": "Planned",
+                    "location": "Neubau / Spittelberg",
+                    "address": "Near Schottenfeldgasse / Neubau / Spittelberg, Vienna",
+                    "transport": "Walk",
+                    "opening_booking_notes": "Reserve if choosing a popular restaurant",
+                    "weather_sensitivity": "Low",
+                    "catch_up_eligibility": false,
+                    "can_skip": false,
+                    "notes": "Local-feel dinner near the second Vienna accommodation.",
+                    "food_options": [
+                        {
+                            "name": "Amerlingbeisl",
+                            "address": "Stiftgasse 8, 1070 Vienna, Austria",
+                            "recommended_order": "Schnitzel, Tafelspitz, goulash",
+                            "route_fit": "Near Spittelberg / Neubau"
+                        },
+                        {
+                            "name": "Glacis Beisl",
+                            "address": "Breite Gasse 4, 1070 Vienna, Austria",
+                            "recommended_order": "Austrian classics, schnitzel, seasonal dishes",
+                            "route_fit": "Near MuseumsQuartier / Neubau"
+                        },
+                        {
+                            "name": "Cucina Itameshi",
+                            "address": "Neubau area, Vienna - verify exact address before going",
+                            "recommended_order": "Pasta / itameshi if reserved",
+                            "route_fit": "Neighbourhood backup"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "day": 12,
+            "date": "2026-10-17",
+            "display_date": "17 Oct",
+            "weekday": "Saturday",
+            "city": "Vienna",
+            "theme": "Vienna return, Naschmarkt brunch, museums, Ringstrasse, and final evening event",
+            "items": [
+                {
+                    "start_time": "09:00",
+                    "end_time": "09:45",
+                    "title": "Optional breakfast",
+                    "category": "Food",
+                    "priority": "Medium",
+                    "status": "Optional",
+                    "location": "Neubau / Mariahilf",
+                    "address": "Near Schottenfeldgasse / Mariahilfer Strasse / Mariahilf",
+                    "transport": "Walk / tram",
+                    "opening_booking_notes": "Check opening hours",
+                    "weather_sensitivity": "Low",
+                    "catch_up_eligibility": false,
+                    "can_skip": true,
+                    "notes": "Keep light if doing Naschmarkt brunch.",
+                    "food_options": [
+                        {
+                            "name": "Motto Brot",
+                            "address": "Mariahilfer Strasse 71A, 1060 Vienna, Austria",
+                            "recommended_order": "Viennoise breakfast, scrambled egg bread, Fromage Jambon toast, pastry",
+                            "route_fit": "Near Neubau / Mariahilf"
+                        },
+                        {
+                            "name": "Cafe Jelinek",
+                            "address": "Otto-Bauer-Gasse 5, 1060 Vienna, Austria",
+                            "recommended_order": "Viennese breakfast, melange, homemade pastry",
+                            "route_fit": "Near Mariahilf"
+                        },
+                        {
+                            "name": "Ahrnst Bakery",
+                            "address": "Neubau / Mariahilf area - verify exact branch before going",
+                            "recommended_order": "Pastry, sourdough, coffee",
+                            "route_fit": "Neighbourhood backup"
+                        }
+                    ]
+                },
+                {
+                    "start_time": "09:45",
+                    "end_time": "10:15",
+                    "title": "Move to Naschmarkt",
+                    "category": "Transport",
+                    "priority": "Medium",
+                    "status": "Planned",
+                    "location": "Neubau to Naschmarkt",
+                    "address": "From: Schottenfeldgasse 9, 1070 Vienna; To: Naschmarkt, 1060 Vienna",
+                    "transport": "Walk / tram / U-Bahn",
+                    "opening_booking_notes": "Use valid local transport ticket if needed",
+                    "weather_sensitivity": "Low",
+                    "catch_up_eligibility": false,
+                    "can_skip": false,
+                    "notes": "Easy from Neubau.",
+                    "food_options": []
+                },
+                {
+                    "start_time": "10:15",
+                    "end_time": "12:00",
+                    "title": "Naschmarkt brunch",
+                    "category": "Food / Market",
+                    "priority": "High",
+                    "status": "Planned",
+                    "location": "Naschmarkt",
+                    "address": "Naschmarkt, 1060 Vienna, Austria",
+                    "transport": "Walk",
+                    "opening_booking_notes": "Check market and restaurant hours. Saturday flea market is a bonus if active.",
+                    "weather_sensitivity": "Medium",
+                    "catch_up_eligibility": true,
+                    "can_skip": false,
+                    "notes": "Moved here from 8 Oct to make 8 Oct stronger for must-do cafes and State Hall.",
+                    "food_options": [
+                        {
+                            "name": "NENI am Naschmarkt",
+                            "address": "Naschmarkt 510, 1060 Vienna, Austria",
+                            "recommended_order": "Hummus, sabich, shakshuka, sharing plates",
+                            "route_fit": "Inside Naschmarkt"
+                        },
+                        {
+                            "name": "Umarfisch",
+                            "address": "Naschmarkt, 1060 Vienna, Austria - verify stall number before going",
+                            "recommended_order": "Fish, seafood plate, grilled fish",
+                            "route_fit": "Inside Naschmarkt"
+                        },
+                        {
+                            "name": "Tewa Naschmarkt",
+                            "address": "Naschmarkt, 1060 Vienna, Austria - verify exact stall before going",
+                            "recommended_order": "Market bowl, brunch plate, light lunch",
+                            "route_fit": "Inside Naschmarkt"
+                        }
+                    ]
+                },
+                {
+                    "start_time": "12:00",
+                    "end_time": "12:30",
+                    "title": "Naschmarkt stroll / flea market edge",
+                    "category": "Market / Walk",
+                    "priority": "Medium",
+                    "status": "Optional",
+                    "location": "Naschmarkt",
+                    "address": "Naschmarkt, 1060 Vienna, Austria",
+                    "transport": "Walk",
+                    "opening_booking_notes": "Saturday flea market timing should be checked",
+                    "weather_sensitivity": "Medium",
+                    "catch_up_eligibility": true,
+                    "can_skip": true,
+                    "notes": "Free market stroll. Shopping and food are paid.",
+                    "food_options": []
+                },
+                {
+                    "start_time": "12:30",
+                    "end_time": "13:00",
+                    "title": "Walk toward Secession / Opera / Albertina",
+                    "category": "Walk / Transport",
+                    "priority": "Medium",
+                    "status": "Planned",
+                    "location": "Naschmarkt to Albertina",
+                    "address": "From: Naschmarkt, 1060 Vienna; To: Albertinaplatz 1, 1010 Vienna",
+                    "transport": "Walk / U-Bahn if tired",
+                    "opening_booking_notes": "No booking required",
+                    "weather_sensitivity": "Medium",
+                    "catch_up_eligibility": false,
+                    "can_skip": false,
+                    "notes": "Simple route via Karlsplatz / Opera.",
+                    "food_options": []
+                },
+                {
+                    "start_time": "13:00",
+                    "end_time": "14:20",
+                    "title": "Albertina",
+                    "category": "Museum",
+                    "priority": "High",
+                    "status": "Planned",
+                    "location": "Albertinaplatz",
+                    "address": "Albertinaplatz 1, 1010 Vienna, Austria",
+                    "transport": "Walk",
+                    "opening_booking_notes": "Paid entry. Vienna City Card discount may apply at ticket desk.",
+                    "weather_sensitivity": "Low",
+                    "catch_up_eligibility": true,
+                    "can_skip": false,
+                    "notes": "Compact museum block.",
+                    "food_options": []
+                },
+                {
+                    "start_time": "14:20",
+                    "end_time": "15:10",
+                    "title": "Hofburg exterior, Michaelerplatz, Volksgarten",
+                    "category": "Sightseeing / Walk",
+                    "priority": "Medium",
+                    "status": "Planned",
+                    "location": "Hofburg / Volksgarten",
+                    "address": "Hofburg / Michaelerplatz / Volksgarten, 1010 Vienna, Austria",
+                    "transport": "Walk",
+                    "opening_booking_notes": "No booking required for exterior areas",
+                    "weather_sensitivity": "Medium",
+                    "catch_up_eligibility": true,
+                    "can_skip": true,
+                    "notes": "Free courtyards, gardens, and exterior walk. Sisi Museum and Imperial Apartments are paid optional add-ons.",
+                    "food_options": []
+                },
+                {
+                    "start_time": "15:10",
+                    "end_time": "15:55",
+                    "title": "Tea time",
+                    "category": "Food / Cafe",
+                    "priority": "Medium",
+                    "status": "Planned",
+                    "location": "Old centre / Ringstrasse",
+                    "address": "Old centre / Ringstrasse, Vienna",
+                    "transport": "Walk / tram",
+                    "opening_booking_notes": "Finish before 16:00",
+                    "weather_sensitivity": "Low",
+                    "catch_up_eligibility": true,
+                    "can_skip": true,
+                    "notes": "Pick one only.",
+                    "food_options": [
+                        {
+                            "name": "Demel",
+                            "address": "Kohlmarkt 14, 1010 Vienna, Austria",
+                            "recommended_order": "Sachertorte, Annatorte, cakes",
+                            "route_fit": "Good if you want a repeat or missed Day 3"
+                        },
+                        {
+                            "name": "L. Heiner",
+                            "address": "Wollzeile 9, 1010 Vienna, Austria - verify branch before going",
+                            "recommended_order": "Cake, Kaiserschmarrn, pastry",
+                            "route_fit": "Old centre backup"
+                        },
+                        {
+                            "name": "Cafe Landtmann",
+                            "address": "Universitaetsring 4, 1010 Vienna, Austria",
+                            "recommended_order": "Melange, cake, classic cafe dessert",
+                            "route_fit": "Near Rathaus / Ringstrasse"
+                        }
+                    ]
+                },
+                {
+                    "start_time": "16:00",
+                    "end_time": "17:00",
+                    "title": "Rathausplatz and Parliament exterior",
+                    "category": "Sightseeing",
+                    "priority": "Medium",
+                    "status": "Planned",
+                    "location": "Ringstrasse",
+                    "address": "Rathausplatz, 1010 Vienna; Parliament: Dr.-Karl-Renner-Ring 3, 1017 Vienna",
+                    "transport": "Walk / tram",
+                    "opening_booking_notes": "Parliament interior requires tour / registration if desired",
+                    "weather_sensitivity": "Medium",
+                    "catch_up_eligibility": true,
+                    "can_skip": true,
+                    "notes": "Free exterior stroll.",
+                    "food_options": []
+                },
+                {
+                    "start_time": "17:00",
+                    "end_time": "18:15",
+                    "title": "Rest / return to accommodation",
+                    "category": "Rest / Logistics",
+                    "priority": "Medium",
+                    "status": "Planned",
+                    "location": "Neubau",
+                    "address": "Schottenfeldgasse 9, 1070 Vienna, Austria",
+                    "transport": "Walk / tram",
+                    "opening_booking_notes": "No booking required",
+                    "weather_sensitivity": "Low",
+                    "catch_up_eligibility": false,
+                    "can_skip": true,
+                    "notes": "Recharge before evening event.",
+                    "food_options": []
+                },
+                {
+                    "start_time": "18:15",
+                    "end_time": "19:00",
+                    "title": "Move to Votivkirche",
+                    "category": "Transport",
+                    "priority": "Medium",
+                    "status": "Planned",
+                    "location": "Neubau to Alsergrund",
+                    "address": "From: Schottenfeldgasse 9, 1070 Vienna; To: Rooseveltplatz, 1090 Vienna",
+                    "transport": "Walk / tram",
+                    "opening_booking_notes": "Use valid local transport ticket if needed",
+                    "weather_sensitivity": "Low",
+                    "catch_up_eligibility": false,
+                    "can_skip": false,
+                    "notes": "Convenient from Neubau.",
+                    "food_options": []
+                },
+                {
+                    "start_time": "19:00",
+                    "end_time": "20:00",
+                    "title": "Light of Creation at Votivkirche",
+                    "category": "Event / Sightseeing",
+                    "priority": "High",
+                    "status": "Planned",
+                    "location": "Votivkirche",
+                    "address": "Rooseveltplatz, 1090 Vienna, Austria",
+                    "transport": "Walk / tram",
+                    "opening_booking_notes": "Paid timed event. Book ahead.",
+                    "weather_sensitivity": "Low",
+                    "catch_up_eligibility": false,
+                    "can_skip": false,
+                    "notes": "Final Vienna evening highlight.",
+                    "food_options": []
+                },
+                {
+                    "start_time": "20:00",
+                    "end_time": "22:00",
+                    "title": "Final dinner",
+                    "category": "Food",
+                    "priority": "High",
+                    "status": "Planned",
+                    "location": "Neubau / Josefstadt / Spittelberg",
+                    "address": "Near Neubau / Josefstadt / Spittelberg, Vienna",
+                    "transport": "Walk / tram",
+                    "opening_booking_notes": "Reserve if desired",
+                    "weather_sensitivity": "Low",
+                    "catch_up_eligibility": false,
+                    "can_skip": false,
+                    "notes": "Final local-feel dinner. No coffee.",
+                    "food_options": [
+                        {
+                            "name": "Glacis Beisl",
+                            "address": "Breite Gasse 4, 1070 Vienna, Austria",
+                            "recommended_order": "Schnitzel, Tafelspitz, goulash, seasonal Austrian dishes",
+                            "route_fit": "Near MuseumsQuartier / Neubau"
+                        },
+                        {
+                            "name": "Amerlingbeisl",
+                            "address": "Stiftgasse 8, 1070 Vienna, Austria",
+                            "recommended_order": "Schnitzel, goulash, Kaiserschmarrn dessert",
+                            "route_fit": "Near Spittelberg"
+                        },
+                        {
+                            "name": "Gastwirtschaft Schilling",
+                            "address": "Burggasse 103, 1070 Vienna, Austria",
+                            "recommended_order": "Austrian classics, schnitzel, goulash",
+                            "route_fit": "Neubau / Josefstadt edge"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "day": 13,
+            "date": "2026-10-18",
+            "display_date": "18 Oct",
+            "weekday": "Sunday",
+            "city": "Vienna",
+            "theme": "Departure from Vienna",
+            "items": [
+                {
+                    "start_time": "06:30",
+                    "end_time": "06:50",
+                    "title": "Checkout",
+                    "category": "Logistics",
+                    "priority": "High",
+                    "status": "Planned",
+                    "location": "Neubau",
+                    "address": "Schottenfeldgasse 9, 1070 Vienna, Austria",
+                    "transport": "Walk",
+                    "opening_booking_notes": "Confirm checkout process the night before",
+                    "weather_sensitivity": "Low",
+                    "catch_up_eligibility": false,
+                    "can_skip": false,
+                    "notes": "Prepare for morning flight.",
+                    "food_options": []
+                },
+                {
+                    "start_time": "06:50",
+                    "end_time": "07:10",
+                    "title": "Travel to airport route",
+                    "category": "Transport",
+                    "priority": "High",
+                    "status": "Planned",
+                    "location": "Neubau to Wien Mitte / Hbf",
+                    "address": "From: Schottenfeldgasse 9, 1070 Vienna; To: Wien Mitte / Landstrasse or Vienna Hbf",
+                    "transport": "Tram / U3 / taxi",
+                    "opening_booking_notes": "Taxi easiest with heavy luggage",
+                    "weather_sensitivity": "Low",
+                    "catch_up_eligibility": false,
+                    "can_skip": false,
+                    "notes": "Vienna City Card may cover core city segment if valid.",
+                    "food_options": []
+                },
+                {
+                    "start_time": "07:10",
+                    "end_time": "08:00",
+                    "title": "Airport transfer",
+                    "category": "Transport",
+                    "priority": "High",
+                    "status": "Planned",
+                    "location": "Vienna city to airport",
+                    "address": "To: Vienna International Airport, 1300 Schwechat, Austria",
+                    "transport": "S-Bahn / CAT / Railjet / airport bus / taxi",
+                    "opening_booking_notes": "Separate airport ticket or airport add-on required",
+                    "weather_sensitivity": "Low",
+                    "catch_up_eligibility": false,
+                    "can_skip": false,
+                    "notes": "Vienna Airport is outside core city zone.",
+                    "food_options": []
+                },
+                {
+                    "start_time": "08:00",
+                    "end_time": "09:30",
+                    "title": "Airport breakfast",
+                    "category": "Food",
+                    "priority": "Medium",
+                    "status": "Planned",
+                    "location": "Vienna Airport",
+                    "address": "Vienna International Airport, 1300 Schwechat, Austria",
+                    "transport": "Walk",
+                    "opening_booking_notes": "Check terminal after online check-in",
+                    "weather_sensitivity": "Low",
+                    "catch_up_eligibility": false,
+                    "can_skip": true,
+                    "notes": "Keep simple before flight.",
+                    "food_options": [
+                        {
+                            "name": "Bieder & Maier Cafe",
+                            "address": "Vienna Airport, Terminal 3 area, 1300 Schwechat, Austria",
+                            "recommended_order": "Coffee, pastry, light bite",
+                            "route_fit": "Airport option"
+                        },
+                        {
+                            "name": "Anker Vienna Airport",
+                            "address": "Vienna Airport, 1300 Schwechat, Austria",
+                            "recommended_order": "Sandwich, filled roll, pastry, coffee",
+                            "route_fit": "Airport bakery option"
+                        },
+                        {
+                            "name": "Airport grab-and-go cafe",
+                            "address": "Near departure gate, Vienna Airport, 1300 Schwechat, Austria",
+                            "recommended_order": "Coffee, pastry, sandwich",
+                            "route_fit": "Use after security if needed"
+                        }
+                    ]
+                },
+                {
+                    "start_time": "09:55",
+                    "end_time": "09:55",
+                    "title": "Departure flight",
+                    "category": "Transport / Flight",
+                    "priority": "High",
+                    "status": "Planned",
+                    "location": "Vienna Airport",
+                    "address": "Vienna International Airport, 1300 Schwechat, Austria",
+                    "transport": "Flight",
+                    "opening_booking_notes": "Check airline check-in and gate details",
+                    "weather_sensitivity": "Low",
+                    "catch_up_eligibility": false,
+                    "can_skip": false,
+                    "notes": "End of trip.",
+                    "food_options": []
+                }
+            ]
+        }
+    ],
+    "general_notes": [
+        "This detailed version includes accommodation addresses and should be reviewed before public GitHub upload.",
+        "Use city cards mainly for local public transport first, and attraction discounts or free entries second.",
+        "Major Vienna attractions are usually not free with the Vienna City Card.",
+        "Salzburg Card and Innsbruck Card provide stronger attraction value than Vienna City Card.",
+        "Book timed attractions in advance where possible.",
+        "Check opening hours close to travel dates, especially Cafe Central renovation status, Salzwelten Hallstatt reopening, and Dachstein seasonal operation.",
+        "Keep cafe and coffee stops between 08:00 and 16:00.",
+        "Use accommodation areas as route anchors to avoid unnecessary transport interchanges.",
+        "For mountain days, check weather, cable car operation, and last descent times.",
+        "For Hallstatt and Obertraun, check evening transport and restaurant availability in advance.",
+        "Intercity trains are separate from city cards.",
+        "Carry some cash for traditional beer halls, mountain huts, and smaller village stops.",
+        "Use live transport apps for Hallstatt, Obertraun, and Dachstein connections."
+    ],
+    "verification_notes": [
+        "Some addresses for smaller backup food options are marked as verify exact address before going because branches, openings, and names can change.",
+        "Cafe Central is a must-do target but has renovation uncertainty for autumn 2026; DECENTRAL is kept as the route-fit backup.",
+        "Demel, Cafe Central, Fenster Cafe, Austrian National Library State Hall, NENI Naschmarkt, Cafe Jelinek, and Votivkirche address/status details were cross-checked online during itinerary preparation."
+    ]
+}
