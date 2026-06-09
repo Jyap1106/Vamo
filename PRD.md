@@ -2,9 +2,10 @@
 
 ## 1. Product Summary
 
-Vamo is a mobile-first itinerary companion for a 13-day Austria trip. The MVP is designed for personal use during the actual holiday. It helps the traveller understand today’s plan, make decisions when the itinerary changes, and avoid missing important experiences.
+Vamo is a mobile web application designed to help users with their itinerary before and during the a trip. 
+At the early stage, this is an itinerary companion for a 13-day Austria trip. The MVP is designed for personal use during the actual holiday. It helps the traveller understand today’s plan, make decisions when the itinerary changes, and avoid missing important experiences.
 
-The MVP should not try to become a full travel marketplace, AI trip generator, or social sharing platform. Those can come later. The immediate product goal is to make the existing itinerary usable in real life.
+The immediate product goal is to make the existing itinerary usable in real life.
 
 ## 2. Product Objective
 
